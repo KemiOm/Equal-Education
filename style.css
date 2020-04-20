@@ -56,10 +56,6 @@ h3 {
 }
 */
 
-.caption{
-  width: 200px;
-  float: left;
-}
 
 .textSection {
   background-color:#0d9c90;
@@ -91,3 +87,11 @@ h3 {
   line-height:80px;
   
 }
+
+.sectionHeader {
+  position: absolute;
+  top: 110%;
+  width: 100%;
+  text-align: center;
+}
+
