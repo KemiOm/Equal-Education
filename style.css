@@ -32,14 +32,43 @@ h3 {
 }
 
 .main-message{
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg");
+  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
   min-height: 100%;
   background-size: auto;
-  background-color:#0d9c90;
-  
+  background-color:#0d9c90; 
 }
 
 
+.textSection {
+  background-color:#0d9c90;
+  padding:50px 80px;  
+}
+
+.image-one{
+  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fmaryjackson.jpg?v=1587408388327");
+}
+
+.image-two{
+  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
+}
+
+.sectionTitle{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.border{
+  background-color: #0d9c90;
+  color: white;
+  padding:20pt;
+  font-size: 25px;
+  letter-spacing: 10px;
+  line-height:80px;
+}
+
+/*Subtitle*/
 .flex-container {
   position: relative;
   display: flex;
@@ -66,36 +95,27 @@ h3 {
 }
 
 
-
-.textSection {
-  background-color:#0d9c90;
-  padding:50px 80px;
-  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.image-one{
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fmaryjackson.jpg?v=1587408388327");
+li {
+  float: left;
 }
 
-.image-two{
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
-}
-
-.sectionTitle{
-  position: absolute;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-}
-
-.border{
-  background-color: #0d9c90;
+li a {
+  display: block;
   color: white;
-  padding:20pt;
-  font-size: 25px;
-  letter-spacing: 10px;
-  line-height:80px;
-  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
