@@ -37,6 +37,19 @@ h3 {
   background-size: auto;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #0d9c90;
+  margin: 50px;
+  padding: 15px;
+  font-size: 16px;
+}
+
 .textSection {
   background-color:#0d9c90;
   padding:50px 80px;
