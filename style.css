@@ -20,13 +20,15 @@ h3 {
   text-align:center
 }
 
-.main-message, .image-one{
+.main-message, .image-one, .image-two{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #642580;
   background-size: cover;
-  min-height: 100%;
+  min-height: 50%; /*Adjust the gap between sections*/
+  
+  background-attachment: fixed;
 }
 
 .main-message{
@@ -36,7 +38,7 @@ h3 {
 }
 
 .textSection {
-  background-color:#642580;
+  background-color:#0d9c90;
   padding:50px 80px;
 }
 
@@ -45,5 +47,20 @@ h3 {
 }
 
 .image-two{
-  
+  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
+}
+
+.sectionTitle{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.border{
+  background-color: #0d9c90;
+  color: white;
+  padding:20pt;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
