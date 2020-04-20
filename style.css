@@ -88,10 +88,22 @@ h3 {
   
 }
 
-.sectionHeader {
-  position: absolute;
-  top: 110%;
-  width: 100%;
+
+
+.sectionHeaderLeft {
+  
+  top: 10%;
+  width: 200px;
   text-align: center;
+  display: inline-block;
+  padding: 30px;
 }
 
+.sectionHeaderRight {
+ 
+  top: 10%;
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+}
