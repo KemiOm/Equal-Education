@@ -39,18 +39,26 @@ h3 {
   
 }
 
+/*
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-height: 100px;
+  align-content: stretch;
 }
 
 .flex-container > div {
   background-color: #0d9c90;
-  margin: 70px;
+  margin: 20px;
   padding: 15px;
   font-size: 16px;
+}
+*/
+
+.caption{
+  width: 200px;
+  float: left;
 }
 
 .textSection {
