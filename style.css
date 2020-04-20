@@ -39,13 +39,14 @@ h3 {
   
 }
 
-/*
+
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-height: 100px;
   align-content: stretch;
+  /*padding: 200pt,50pt,30pt,30pt;*/
 }
 
 .flex-container > div {
@@ -54,7 +55,7 @@ h3 {
   padding: 15px;
   font-size: 16px;
 }
-*/
+
 
 
 .textSection {
@@ -88,25 +89,31 @@ h3 {
   
 }
 
+/*
+.sectionHeader {
+  padding: 100pt;
+}
 .sectionHeaderLeft {
   
-  top: 40%;
-  width: 400px;
-  text-align: justify;
+  float: left;
+  width: 200pt;
   display: inline-block;
-  padding: 100px,30px,30px,30px;
   
-  padding:20pt;
+  padding:120pt;
   font-size: 25px;
   letter-spacing: 10px;
-  line-height:80px;
+  line-height:60px;
 }
 
 .sectionHeaderRight {
- 
-  top: 40%;
-  width: 200px;
-  text-align: justify;
+  float: right;
+  width: 200pt;
   display: inline-block;
-  padding: 10px, 0px, 0px, 0px;
+  
+  padding:120pt;
+  font-size: 15px;
+  line-height:20px;
+  
+
 }
+*/
