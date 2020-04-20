@@ -32,7 +32,7 @@ h3 {
 }
 
 .main-message{
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac4.png?v=1587407188753");
+  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg");
   min-height: 100%;
   background-size: auto;
   background-color:#0d9c90;
@@ -54,10 +54,14 @@ h3 {
 }
 
 .flex-container > div {
-  background-color: (0,0,0,);
+  background-color: #0d9c90;
   margin: 20px;
   padding: 15px;
   font-size: 20px;
+  width: 400px;
+}
+
+#subtitle {
   width: 200px;
 }
 
@@ -94,31 +98,4 @@ h3 {
   
 }
 
-/*
-.sectionHeader {
-  padding: 100pt;
-}
-.sectionHeaderLeft {
-  
-  float: left;
-  width: 200pt;
-  display: inline-block;
-  
-  padding:120pt;
-  font-size: 25px;
-  letter-spacing: 10px;
-  line-height:60px;
-}
 
-.sectionHeaderRight {
-  float: right;
-  width: 200pt;
-  display: inline-block;
-  
-  padding:120pt;
-  font-size: 15px;
-  line-height:20px;
-  
-
-}
-*/
