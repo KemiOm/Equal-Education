@@ -2,7 +2,7 @@
 
 body, html {
   height: 100%;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 15px/1.8 "Roboto", sans-serif;
   margin: 0em;
   color: white;
 }
@@ -15,7 +15,7 @@ h1 {
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 20px "Roboto Mono", sans-serif;
   color: white;
   text-align:center
 }
@@ -28,9 +28,11 @@ h3 {
   background-size: cover;
   min-height: 50%; /*Adjust the gap between sections*/
   
+  /*Creates the scrolling effect*/
   background-attachment: fixed;
 }
 
+/*Top image*/
 .main-message{
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
   min-height: 100%;
@@ -38,28 +40,15 @@ h3 {
   background-color:#0d9c90; 
 }
 
-
-.textSection {
-  background-color:#0d9c90;
-  padding:50px 80px;  
-}
-
-.image-one{
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fmaryjackson.jpg?v=1587408388327");
-}
-
-.image-two{
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
-}
-
-.sectionTitle{
+/*Title of the page*/
+.title{
   position: absolute;
   top: 40%;
   width: 100%;
   text-align: center;
 }
 
-.border{
+.titleText{
   background-color: #0d9c90;
   color: white;
   padding:20pt;
@@ -68,7 +57,7 @@ h3 {
   line-height:80px;
 }
 
-/*Subtitle*/
+/*Subtitle and description*/
 .flex-container {
   position: relative;
   display: flex;
@@ -82,6 +71,7 @@ h3 {
   padding-right: 200px;
 }
 
+/*Description class*/
 .flex-container > div {
   background-color: #0d9c90;
   margin: 20px;
@@ -90,11 +80,29 @@ h3 {
   width: 400px;
 }
 
+/*Subtitle id*/
 #subtitle {
   width: 200px;
 }
 
+/*Text scrolling sections*/
+.textSection {
+  background-color:#0d9c90;
+  padding:50px 80px;  
+}
 
+/*Images*/
+.image-one{
+  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fmaryjackson.jpg?v=1587408388327");
+}
+
+.image-two{
+  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
+}
+
+
+
+/*Navigation Bar*/
 ul {
   list-style-type: none;
   margin: 0;
