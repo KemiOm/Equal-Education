@@ -21,6 +21,7 @@ h3 {
   text-align:center
 }
 
+/*https://www.w3schools.com/cssref/pr_background-attachment.asp*/
 .main-message, .image-one, .image-two{
   position: relative;
   background-position: center;
