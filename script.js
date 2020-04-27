@@ -55,7 +55,7 @@ Add a class: element.classList.toggle("classToAdd", true);
 */
 
 //UNCOMMENT TO ADD, COMPLETE, AND DELETE NEW ITEMS
-/*Add new items
+/* Add new items */
 var addButton = document.getElementById("add-button");
 addButton.addEventListener("click", newActionItem);
 
@@ -99,7 +99,7 @@ function newActionItem() {
     };
   }
 }
-*/
+
 
 
 
