@@ -52,15 +52,22 @@ h3 {
   top: 40%;
   width: 100%;
   text-align: center;
-}
-
-.titleText{
   background-color: #0d9c90;
   color: white;
   padding:20pt;
   font-size: 30px;
   letter-spacing: 10px;
   line-height:80px;
+}
+
+.subtitle {
+  box-sizing: border-box;
+  background-color: #0d9c90;
+}
+
+.intro-text {
+  box-sizing: border-box;
+  background-color: #0d9c90;
 }
 
 /*Subtitle and description*/
