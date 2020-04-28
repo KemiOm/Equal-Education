@@ -142,8 +142,11 @@ li.nav a:hover {
   box-sizing: border-box;
   padding: 0 0 0 30px;
   margin: 25px;
+  position: absolute;
+  top: 50px;
   display: inline-block;
-  width: 50%;
+  width: 30%;
+  height: 80%;
   border-style: dotted;
 }
 
@@ -151,8 +154,12 @@ li.nav a:hover {
   box-sizing: border-box;
   padding: 0 0 0 30px;
   margin: 25px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
   display: inline-block;
-  width: 50%;
+  width: 30%;
+  height: 80%;
   border-style: dotted;
   
 }
