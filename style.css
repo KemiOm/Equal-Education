@@ -6,6 +6,7 @@ body, html {
   font: 400 15px/1.8 "Roboto", sans-serif;
   margin: 0em;
   color: white;
+  background-color: #0d9c90
 }
 
 
@@ -138,16 +139,13 @@ li.nav a:hover {
 /* CSS FOR ACTION ITEM LIST */
 
 h1.list-header {
-  font: 25px 'Roboto Mono', sans-serif;
-  letter-spacing: 0;
-  color: #f4364c;
   text-align: left;
 }
 
 p.instructions {
   font: 14px 'Roboto', sans-serif;
   font-style: italic;
-  color: #0d9c90;
+  color: #fff;
   
 }
 
