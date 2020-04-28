@@ -138,6 +138,25 @@ li.nav a:hover {
 
 /* CSS FOR ACTION ITEM LIST */
 
+.info-container {
+  box-sizing: border-box;
+  padding: 0 0 0 30px;
+  margin: 25px;
+  display: inline-block;
+  width: 50%;
+  border-style: dotted;
+}
+
+.list-container {
+  box-sizing: border-box;
+  padding: 0 0 0 30px;
+  margin: 25px;
+  display: inline-block;
+  width: 50%;
+  border-style: dotted;
+  
+}
+
 h1.list-header {
   text-align: left;
 }
@@ -147,11 +166,6 @@ p.instructions {
   font-style: italic;
   color: #fff;
   
-}
-
-.list-container {
-  box-sizing: border-box;
-  padding: 0 0 0 30px;
 }
 
 input {
