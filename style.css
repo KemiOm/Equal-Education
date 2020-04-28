@@ -6,7 +6,7 @@ body, html {
   font: 400 15px/1.8 "Roboto", sans-serif;
   margin: 0em;
   color: white;
-  background-color: #0d9c90
+  background-color: #0d9c90;
 }
 
 
@@ -141,49 +141,52 @@ li.nav a:hover {
 .page-header{
   box-sizing: border-box;
   padding: 0 0 0 30px;
-  margin: 10px;
+  margin: 15px 15px 15px 35px;
   position: absolute;
   text-transform: uppercase;
 }
 
 .left-container {
   box-sizing: border-box;
-  padding: 0 30px 0 30px;
-  margin: 25px;
+  padding: 0 30px 0 15px;
+  margin: 30px 30px 30px 55px;
   position: absolute;
   top: 100px;
   display: inline-block;
   width: 40%;
   height: 80%;
-  border-style: dotted;
+  /*border-style: dotted;*/ /*uncomment to see the boundaries of the box*/
 }
 
 .right-container {
   box-sizing: border-box;
   padding: 0 30px 0 30px;
-  margin: 25px;
+  margin: 30px;
   position: absolute;
   top: 100px;
   left: 50%;
   display: inline-block;
   width: 40%;
   height: 80%;
-  border-style: dotted;
+  /*border-style: dotted;*/ /*uncomment to see the boundaries of the box*/
   
 }
 
 #list-container{
   background-color: white;
+  border-radius: 15px;
 }
 
-h1.list-header {
-  text-align: left;
+#list-header {
+  text-align: center;
+  color: #0d9c90;
+  letter-spacing: 1px;
 }
 
 p.instructions {
   font: 14px 'Roboto', sans-serif;
   font-style: italic;
-  color: #fff;
+  color: #0d9c90;
   
 }
 
