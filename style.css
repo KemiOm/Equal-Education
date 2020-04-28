@@ -53,12 +53,15 @@ h3 {
   height: 600px;
   margin: 0 50px 0 50px;
   border-style: dotted;
+  top: 40px;
+  left: 15%;
+  right: 25%;
 }
 /*Title of the page*/
 .title{
   position: absolute;
   top: 0;
-  width: 90%;
+  width: 99%;
   text-align: center;
   background-color: #0d9c90;
   color: white;
