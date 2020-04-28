@@ -57,14 +57,12 @@ h3 {
 /*Title of the page*/
 .title{
   position: absolute;
-  top: 10%;
-  
-  
-  width: 100%;
+  top: 0;
+  width: 90%;
   text-align: center;
   background-color: #0d9c90;
   color: white;
-  padding: 5pt;
+  padding: 5px;
   font-size: 30px;
   letter-spacing: 10px;
   line-height:80px;
