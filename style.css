@@ -138,30 +138,42 @@ li.nav a:hover {
 
 /* CSS FOR ACTION ITEM LIST */
 
-.info-container {
+.page-header{
   box-sizing: border-box;
   padding: 0 0 0 30px;
+  margin: 10px;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.left-container {
+  box-sizing: border-box;
+  padding: 0 30px 0 30px;
   margin: 25px;
   position: absolute;
-  top: 50px;
+  top: 100px;
   display: inline-block;
-  width: 30%;
+  width: 40%;
   height: 80%;
   border-style: dotted;
 }
 
-.list-container {
+.right-container {
   box-sizing: border-box;
-  padding: 0 0 0 30px;
+  padding: 0 30px 0 30px;
   margin: 25px;
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 50%;
   display: inline-block;
-  width: 30%;
+  width: 40%;
   height: 80%;
   border-style: dotted;
   
+}
+
+#list-container{
+  background-color: white;
 }
 
 h1.list-header {
