@@ -127,13 +127,22 @@ h3 {
 }
 
 
-@media only screen and (max-width: 700px){ /* If the screen is 700 or less, implement these changes*/ 
+@media only screen and (max-width: 750px){ /* If the screen is 700 or less, implement these changes*/ 
   .main-message, .image-one, .image-two{
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-width: 701px){ /* If the screen is 701 or more, implement these changes*/ 
+@media only screen and (max-width: 1300px and max-width: 751px){ /* If the screen is 700 or less, implement these changes*/ 
+  .title {   
+    
+    font-size: 35px;
+    line-height: 80px;
+    border-style: dotted;
+  }
+}
+
+@media only screen and (min-width: 1301px){ /* If the screen is 701 or more, implement these changes*/ 
   .main-message, .image-one, .image-two{
     background-attachment: fixed;
   }
