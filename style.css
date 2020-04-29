@@ -139,6 +139,12 @@ h3 {
 }
 
 
+@media only screen and (max-width: 1024px){ /* If the screen is 1024 or less, implement these changes*/ 
+  .main-message, .image-one, .image-two{
+    background-attachment: scroll;
+  }
+}
+
 
 /* CSS FOR TOP NAVIGATION BAR */
 ul.nav-bar {
