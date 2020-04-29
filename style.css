@@ -61,13 +61,36 @@ h3 {
 }
 */
 
-.flex-container {
+/* This style is designed for mobile first */
+.flex-container { 
   width: 90%;
-  margin: 30% auto;
+  margin: 50% auto;
   padding: 0.5em 0;
-  border-style:dotted;
+  border-style: dotted;
   
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+/* This style is designed for mobile first */
+.subtitle { 
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 1;
+  border-style: dotted;
+  background-color: #0d9c90;
+  
+}
+
+/* This style is designed for mobile first */
+.intro-text {
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 1;
+  border-style: dotted;
   background-color: #0d9c90;
 }
 
