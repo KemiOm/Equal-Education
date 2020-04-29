@@ -44,8 +44,10 @@ h3 {
   min-height: 100%;
   background-size: auto;
   background-color:#0d9c90; 
+  border-style:dotted;
 }
 
+/*
 .message-container{
   box-sizing: border-box;
   position: absolute;
@@ -57,6 +59,18 @@ h3 {
   left: 15%;
   right: 25%;
 }
+*/
+
+.flex-container {
+  width: 90%;
+  margin: 30% auto;
+  padding: 0.5em 0;
+  border-style:dotted;
+  
+  display: flex;
+  background-color: #0d9c90;
+}
+
 /*Title of the page*/
 .title{
   position: absolute;
@@ -68,9 +82,10 @@ h3 {
   padding: 5px;
   font-size: 30px;
   letter-spacing: 10px;
-  line-height:80px;
+  line-height:60px;
 }
 
+/*
 .subtitle {
   box-sizing: border-box;
   background-color: #0d9c90;
@@ -94,7 +109,7 @@ h3 {
   padding: 15px;
 }
 
-/*Subtitle and description*/
+/*Subtitle and description
 .flex-container {
   position: relative;
   display: flex;
@@ -103,12 +118,12 @@ h3 {
   justify-content: center;
   flex-height: 100px;
   align-content: stretch;
-  /*padding: 200pt,50pt,30pt,30pt;*/
+  /*padding: 200pt,50pt,30pt,30pt;
   padding-left: 200px;
   padding-right: 200px;
 }
 
-/*Description class*/
+/*Description class
 .flex-container > div {
   background-color: #0d9c90;
   margin: 20px;
@@ -117,11 +132,12 @@ h3 {
   width: 400px;
 }
 
-/*Subtitle id*/
+/*Subtitle id
 #subtitle {
   width: 200px;
   font-size: 10px;
 }
+*/
 
 /*Text scrolling sections*/
 .textSection {
@@ -139,9 +155,20 @@ h3 {
 }
 
 
-@media only screen and (max-width: 1024px){ /* If the screen is 1024 or less, implement these changes*/ 
+@media only screen and (max-width: 700px){ /* If the screen is 700 or less, implement these changes*/ 
   .main-message, .image-one, .image-two{
     background-attachment: scroll;
+  }
+}
+
+@media only screen and (min-width: 701px){ /* If the screen is 701 or more, implement these changes*/ 
+  .main-message, .image-one, .image-two{
+    background-attachment: fixed;
+  }
+  
+  .title {
+    font-size: 35px;
+    line-height:80px;
   }
 }
 
