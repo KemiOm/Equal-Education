@@ -131,11 +131,16 @@ h3 {
   .main-message, .image-one, .image-two{
     background-attachment: scroll;
   }
+  
+  .title {   
+    font-size: 15px;
+    line-height: 30px;
+    border-style: dotted;
+  }
 }
 
-@media only screen and (max-width: 1300px and max-width: 751px){ /* If the screen is 700 or less, implement these changes*/ 
+@media only screen and (max-width: 1300px){ /* If the screen is 700 or less, implement these changes*/ 
   .title {   
-    
     font-size: 35px;
     line-height: 80px;
     border-style: dotted;
