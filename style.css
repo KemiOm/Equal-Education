@@ -139,15 +139,19 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 1300px){ /* If the screen is 700 or less, implement these changes*/ 
+@media only screen and (min-width: 751px){ /* If the screen is 700 or less, implement these changes*/ 
   .title {   
-    font-size: 35px;
-    line-height: 80px;
+   top: 10%;
+    padding: 0 60px;
+    margin: 10% 20.5%;
+    width: 50%;
+    font-size: 40px;
+    line-height: 100px;
     border-style: dotted;
   }
 }
 
-@media only screen and (min-width: 1301px){ /* If the screen is 701 or more, implement these changes*/ 
+@media only screen and (min-width: 1200px){ /* If the screen is 701 or more, implement these changes*/ 
   .main-message, .image-one, .image-two{
     background-attachment: fixed;
   }
