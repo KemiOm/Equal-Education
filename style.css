@@ -34,7 +34,7 @@ h3 {
   background-repeat: no-repeat;
   background-color: #0d9c90;
   background-size: cover;
-  min-height: 50%; /*Adjust the gap between sections*/
+  min-height: 80%; /*Adjust the gap between sections*/
   
   /*Creates the scrolling effect*/
   background-attachment: fixed;
@@ -114,6 +114,7 @@ h3 {
 .textSection {
   background-color:#0d9c90;
   padding: 20px 45px;  
+  margin: 35px;
 }
 
 /*Images*/
@@ -137,14 +138,25 @@ h3 {
     background-attachment: fixed;
   }
   
-  .flex-container {
-     flex-wrap: nowrap;
+  .main-message {
+    height: 75%;
   }
   
   .title {
+    top: 20%;
+    margin: 10% 25%;
+    width: 50%;
     font-size: 35px;
     line-height:80px;
+    border-style: dotted;
   }
+  
+  .flex-container {
+     flex-wrap: nowrap;
+    margin: 30% auto;
+  }
+  
+  .s
 }
 
 
