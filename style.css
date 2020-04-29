@@ -3,7 +3,9 @@
 
 body, html {
   height: 100%;
-  font: 400 15px/1.8 "Roboto", sans-serif;
+  font: 15px; 
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5em;
   margin: 0em;
   color: white;
   background-color: #0d9c90;
@@ -77,7 +79,7 @@ h3 {
 
 /* This style is designed for mobile first */
 .subtitle { 
-  padding: 5px;
+  padding: 15px;
   margin: 5px;
   flex-grow: 1;
   border-style: dotted;
@@ -87,7 +89,7 @@ h3 {
 
 /* This style is designed for mobile first */
 .intro-text {
-  padding: 5px;
+  padding: 15px;
   margin: 5px;
   flex-grow: 1;
   border-style: dotted;
@@ -108,64 +110,10 @@ h3 {
   line-height:60px;
 }
 
-/*
-.subtitle {
-  box-sizing: border-box;
-  background-color: #0d9c90;
-  display: inline-block;
-  position: absolute;
-  margin: 0 0 0 10px;
-  width: 30%;
-  height: 200px;
-  top: 50%;
-}
-
-.intro-text {
-  box-sizing: border-box;
-  background-color: #0d9c90;
-  display: inline-block;
-  position: absolute;
-  width: 50%;
-  height: 200px;
-  top: 50%;
-  left: 50%;
-  padding: 15px;
-}
-
-/*Subtitle and description
-.flex-container {
-  position: relative;
-  display: flex;
-  flex-flow: wrap;
-  flex-direction: row;
-  justify-content: center;
-  flex-height: 100px;
-  align-content: stretch;
-  /*padding: 200pt,50pt,30pt,30pt;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-/*Description class
-.flex-container > div {
-  background-color: #0d9c90;
-  margin: 20px;
-  padding: 15px;
-  font-size: 15px;
-  width: 400px;
-}
-
-/*Subtitle id
-#subtitle {
-  width: 200px;
-  font-size: 10px;
-}
-*/
-
 /*Text scrolling sections*/
 .textSection {
   background-color:#0d9c90;
-  padding:50px 80px;  
+  padding: 20px 45px;  
 }
 
 /*Images*/
@@ -187,6 +135,10 @@ h3 {
 @media only screen and (min-width: 701px){ /* If the screen is 701 or more, implement these changes*/ 
   .main-message, .image-one, .image-two{
     background-attachment: fixed;
+  }
+  
+  .flex-container {
+     flex-wrap: nowrap;
   }
   
   .title {
