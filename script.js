@@ -5,7 +5,7 @@
 console.log("hi");
 
 // Create a "close" button and append it to each list item
-var myNodelist = document.getElementsByTagName("LI");
+var myNodelist = document.getElementsByClassName("action-li");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");

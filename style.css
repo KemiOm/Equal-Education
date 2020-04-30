@@ -26,11 +26,39 @@ h3 {
   text-align: center;
 }
 
-/*-----------CSS FOR PARALLAX SCROLL-----------*/
-/*--------------CSS FOR INDEX.HTML--------------*/
+/************************************************/
+/*************** CSS FOR NAV BAR** **************/
+/************************************************/
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0D38D3;
+}
+
+li.nav {
+  float: right;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.nav a:hover {
+  background-color: #0169E1;
+}
+
+/************************************************/
+/************** CSS FOR INDEX.HTML **************/
 /************************************************/
 
-/*-----------CSS FOR PARALLAX SCROLL-----------*/
+/*-----------PARALLAX SCROLL-----------*/
 /*https://www.w3schools.com/cssref/pr_background-attachment.asp*/
 .main-message,
 .image-one,
@@ -72,7 +100,7 @@ h3 {
   line-height: 60px;
 }
 
-/* Flexbox container for subtitle and intro text - This style is designed for mobile first */
+/* Flexbox container for subtitle and intro text (designed for mobile first) */
 .flex-container {
   width: 90%;
   margin: 0 auto;
@@ -85,7 +113,7 @@ h3 {
   justify-content: center;
 }
 
-/* Left box under title - This style is designed for mobile first */
+/* Left box under title (designed for mobile first) */
 .subtitle {
   padding: 15px;
   margin: 5px;
@@ -94,7 +122,7 @@ h3 {
   background-color: #0d9c90;
 }
 
-/* Right box under title - This style is designed for mobile first */
+/* Right box under title (designed for mobile first) */
 .intro-text {
   padding: 15px;
   margin: 5px;
@@ -119,31 +147,9 @@ h3 {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
 }
 
-/*-----------TOP NAVIGATION BAR-----------*/
-ul.nav-bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0D38D3;
-}
-
-li.nav {
-  float: right;
-}
-
-li.nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li.nav a:hover {
-  background-color: #0169E1;
-}
+/******************************************************/
+/************** CSS FOR TAKE-ACTION.HTML **************/
+/******************************************************/
 
 /*-----------ACTION ITEM LIST-----------*/
 
@@ -277,7 +283,9 @@ p.instructions {
   color: white;
 }
 
-/*-----------ABOUT PAGE-----------*/
+/******************************************************/
+/***************** CSS FOR ABOUT.HTML *****************/
+/******************************************************/
 .about-container {
   box-sizing: border-box;
   width: 90%;
@@ -285,7 +293,9 @@ p.instructions {
   padding: 0.5em 0;
 }
 
-/*-----------CHANGE CSS BASED ON SCREEN SIZE-----------*/
+/******************************************************/
+/********** CHANGE CSS BASED ON SCREEN SIZE ***********/
+/******************************************************/
 
 /* IF THE SCREEN IS ~~700 OR LESS~~ IMPLEMENT THESE RULES */
 
@@ -304,6 +314,7 @@ p.instructions {
 }
 
 /* IF THE SCREEN IS ~~701 OR MORE~~ IMPLEMENT THESE RULES */
+
 @media only screen and (min-width: 701px) {
   /*------------index.html------------*/
   .title {
@@ -392,7 +403,11 @@ p.instructions {
   }
 }
 
-/*------------CSS FOR ADD ITEM EXTENSION------------*/
+/******************************************************/
+/***************** CSS FOR EXTENSIONS *****************/
+/******************************************************/
+
+/*---------------ADD ITEM EXTENSION--------------*/
 #add-button {
   padding: 10px;
   width: 50px;
