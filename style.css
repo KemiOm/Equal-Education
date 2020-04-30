@@ -9,6 +9,7 @@ html {
   margin: 0em;
   color: white;
   background-color: #0d9c90;
+  box-sizing: border-box
 }
 
 h1 {
@@ -47,7 +48,8 @@ h3 {
   min-height: 100%;
   background-size: auto;
   background-color: #0d9c90;
-  border-style: none; /*Uncomment to see the outline of the container*/
+  border-style: groove; /*Uncomment to see the outline of the container*/
+  border-color: #0d9c90;
 }
 
 /*Title of the page*/
@@ -83,7 +85,7 @@ h3 {
   padding: 15px;
   margin: 5px;
   flex-grow: 1;
-  border-style: dotted;
+  /*border-style: dotted;*/
   background-color: #0d9c90;
 }
 
@@ -92,7 +94,7 @@ h3 {
   padding: 15px;
   margin: 5px;
   flex-grow: 1;
-  border-style: dotted;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
 }
 
@@ -170,7 +172,7 @@ h3 {
   }
 
   .textSection {
-    border-style: dotted;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
     margin: 1.5% 15%;
     font-size: 20px;
     line-height: 1.5em;
@@ -204,7 +206,7 @@ li.nav a {
 
 /* Change the link color to #111 (black) on hover */
 li.nav a:hover {
-  background-color: #111;
+  background-color: #0d9c90;
 }
 
 /* CSS FOR ACTION ITEM LIST */
