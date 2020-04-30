@@ -1,7 +1,9 @@
 /* All of the main styles were created to be mobile friendly*/
 /* They are adjusted for larger screens in the @media section at the end */
 
-/* CSS files add styling rules to your content */
+/************************************************/
+/************* UNIVERSAL ELEMENTS ***************/
+/************************************************/
 
 body,
 html {

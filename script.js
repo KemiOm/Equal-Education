@@ -1,9 +1,6 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
 
-// prints "hi" in the browser's dev tools console
-console.log("hi");
-
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByClassName("action-li");
 var i;
@@ -15,7 +12,6 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-
 // Click on a close button to hide the current list item
 var close = document.getElementsByClassName("deleteButton");
 var i;
@@ -23,7 +19,7 @@ for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     var div = this.parentElement;
     div.style.display = "none";
-  }
+  };
 }
 
 //mark checked items - function expression
@@ -53,6 +49,10 @@ Remove a class: element.classList.toggle("classToRemove", false);
 Add a class: element.classList.toggle("classToAdd", true);
 
 */
+
+/************************************************/
+/************** CODE FOR EXTENSIONS *************/
+/************************************************/
 
 //UNCOMMENT TO ADD, COMPLETE, AND DELETE NEW ITEMS
 /* Add new items 
@@ -100,9 +100,3 @@ function newActionItem() {
   }
 }
 */
-
-
-
-
-
-
