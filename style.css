@@ -40,7 +40,6 @@ Add a top nav bar that has home, take action, and about pages.
 The background color should change when you hover over the link.
 */
 
-
 /************************************************/
 /************** CSS FOR INDEX.HTML **************/
 /************************************************/
@@ -66,7 +65,7 @@ The background color should change when you hover over the link.
 .main-message {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
   min-height: 100%;
-  background-size: auto;
+  background-size: 250%;
   background-color: #0d9c90;
   /*border-style: groove; /*Uncomment to see the outline of the container*/
   border-color: #0169E1;
@@ -294,8 +293,6 @@ p.instructions {
   padding: 0.5em 0;
 }
 
-
-
 /******************************************************/
 /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
 /******************************************************/
@@ -328,7 +325,7 @@ p.instructions {
     font-size: 35px;
     line-height: 80px;
   }
-  
+
   .flex-container {
     padding: 35% 0 0 0;
   }
@@ -366,6 +363,7 @@ p.instructions {
 
   .main-message {
     height: 75%;
+    background-size: auto;
   }
 
   .title {
