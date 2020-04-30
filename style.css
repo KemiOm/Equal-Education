@@ -145,10 +145,10 @@ li.nav a:hover {
 
 .page-header {
   box-sizing: border-box;
-  padding: 0 0 0 30px;
-  margin: 15px 15px 15px 35px;
+  width: 100%;
   position: absolute;
   text-transform: uppercase;
+  background-color: #0169E1;
 }
 
 .flex-container-action {
