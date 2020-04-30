@@ -1,9 +1,9 @@
 /* CSS files add styling rules to your content */
 
-
-body, html {
+body,
+html {
   height: 100%;
-  font: 15px; 
+  font: 15px;
   font-family: "Roboto", sans-serif;
   line-height: 1.5em;
   margin: 0em;
@@ -11,83 +11,83 @@ body, html {
   background-color: #0d9c90;
 }
 
-
 h1 {
   letter-spacing: 5px;
-  font: 25px 'Roboto Mono', sans-serif;
+  font: 25px "Roboto Mono", sans-serif;
   color: white;
-  text-align:center
+  text-align: center;
 }
 
 h3 {
   letter-spacing: 5px;
-  font: 25px 'Roboto Mono', sans-serif;
+  font: 25px "Roboto Mono", sans-serif;
   color: white;
-  text-align:center
+  text-align: center;
 }
 
-/* CSS FOR PARALLAX SCROLL */
+/*-----------CSS FOR PARALLAX SCROLL-----------*/
 /*https://www.w3schools.com/cssref/pr_background-attachment.asp*/
-.main-message, .image-one, .image-two{
+.main-message,
+.image-one,
+.image-two {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #0d9c90;
   background-size: cover;
   min-height: 80%; /*Adjust the gap between sections*/
-  
+
   /*Creates the scrolling effect*/
   background-attachment: fixed;
 }
 
-/*Top image*/
-.main-message{
+/*Container for top image and text - Designed for mobile first*/
+.main-message {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
   min-height: 100%;
   background-size: auto;
-  background-color:#0d9c90; 
-  border-style:dotted;
+  background-color: #0d9c90;
+  border-style: none; /*Uncomment to see the outline of the container*/
 }
 
-/*
-.message-container{
-  box-sizing: border-box;
+/*Title of the page*/
+.title {
   position: absolute;
-  width: 60%;
-  height: 600px;
-  margin: 0 50px 0 50px;
-  border-style: dotted;
-  top: 40px;
-  left: 15%;
-  right: 25%;
+  top: 0;
+  width: 75%;
+  margin: 10% 11%;
+  text-align: center;
+  background-color: #0d9c90;
+  color: white;
+  padding: 5px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  line-height: 60px;
 }
-*/
 
-/* This style is designed for mobile first */
-.flex-container { 
+/* Flexbox container for subtitle and intro text - This style is designed for mobile first */
+.flex-container {
   width: 90%;
   margin: 50% auto;
   padding: 0.5em 0;
-  border-style: dotted;
-  
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
- 
 }
 
-/* This style is designed for mobile first */
-.subtitle { 
+/* Left box under title - This style is designed for mobile first */
+.subtitle {
   padding: 15px;
   margin: 5px;
   flex-grow: 1;
   border-style: dotted;
   background-color: #0d9c90;
-  
 }
 
-/* This style is designed for mobile first */
+/* Right box under title - This style is designed for mobile first */
 .intro-text {
   padding: 15px;
   margin: 5px;
@@ -96,70 +96,57 @@ h3 {
   background-color: #0d9c90;
 }
 
-/*Title of the page*/
-.title{
-  position: absolute;
-  top: 0;
-  width: 99%;
-  text-align: center;
-  background-color: #0d9c90;
-  color: white;
-  padding: 5px;
-  font-size: 30px;
-  letter-spacing: 10px;
-  line-height:60px;
-}
+
 
 /*Text scrolling sections*/
 .textSection {
-  background-color:#0d9c90;
-  padding: 20px 45px;  
+  background-color: #0d9c90;
+  padding: 20px 45px;
   margin: 35px;
 }
 
 /*Images*/
-.image-one{
+.image-one {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fmaryjackson.jpg?v=1587408388327");
 }
 
-.image-two{
+.image-two {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
 }
 
-
-@media only screen and (max-width: 750px){ /* If the screen is 750 or less, implement these changes*/ 
-  .main-message, .image-one, .image-two{
+@media only screen and (max-width: 700px) {
+  /* If the screen is 750 or less, implement these changes*/
+  .main-message,
+  .image-one,
+  .image-two {
     background-attachment: scroll;
-  }
-  
-  .title {   
-    font-size: 25px;
-    line-height: 40px;
-    border-style: dotted;
   }
 }
 
-@media only screen and (min-width: 751px){ /* If the screen is 751 or more, implement these changes*/ 
-  .title {   
-   top: 10%;
+@media only screen and (min-width: 701px) {
+  /* If the screen is 751 or more, implement these changes*/
+  .title {
+    top: 10%;
     padding: 0 60px;
     margin: 5% 20.5%;
     width: 50%;
     font-size: 35px;
     line-height: 80px;
-    border-style: dotted;
   }
 }
 
-@media only screen and (min-width: 1250px){ /* If the screen is 1250 or more, implement these changes*/ 
-  .main-message, .image-one, .image-two{
+@media only screen and (min-width: 1250px) {
+  /* If the screen is 1250 or more, implement these changes*/
+  .main-message,
+  .image-one,
+  .image-two {
     background-attachment: fixed;
   }
-  
+
   .main-message {
     height: 75%;
   }
-  
+
   .title {
     top: 10%;
     padding: 0 60px;
@@ -167,34 +154,32 @@ h3 {
     width: 50%;
     font-size: 40px;
     line-height: 100px;
-    border-style: dotted;
   }
-  
+
   .flex-container {
-     flex-wrap: nowrap;
+    flex-wrap: nowrap;
     margin: 25% auto;
     width: 60%;
   }
-  
+
   .intro-text {
     width: 70%;
     font-size: 20px;
     line-height: 1.5em;
     padding: 20px;
   }
-  
+
   .textSection {
     border-style: dotted;
     margin: 1.5% 15%;
     font-size: 20px;
     line-height: 1.5em;
   }
-  
+
   h3 {
     font-size: 35px;
   }
 }
-
 
 /* CSS FOR TOP NAVIGATION BAR */
 ul.nav-bar {
@@ -222,10 +207,9 @@ li.nav a:hover {
   background-color: #111;
 }
 
-
 /* CSS FOR ACTION ITEM LIST */
 
-.page-header{
+.page-header {
   box-sizing: border-box;
   padding: 0 0 0 30px;
   margin: 15px 15px 15px 35px;
@@ -256,10 +240,9 @@ li.nav a:hover {
   width: 40%;
   height: 80%;
   /*border-style: dotted;*/ /*uncomment to see the boundaries of the box*/
-  
 }
 
-#list-container{
+#list-container {
   background-color: white;
   border-radius: 15px;
 }
@@ -271,16 +254,15 @@ li.nav a:hover {
 }
 
 p.instructions {
-  font: 14px 'Roboto', sans-serif;
+  font: 14px "Roboto", sans-serif;
   font-style: italic;
   color: #0d9c90;
-  
 }
 
 input {
   margin: 0;
   width: 200px; /*Sets width of box*/
-  padding: 10px; 
+  padding: 10px;
 }
 
 #my-list {
@@ -289,7 +271,7 @@ input {
   font-size: 10pt;
 }
 
-#my-list li{
+#my-list li {
   cursor: pointer;
   padding: 8px 5px 8px 35px;
   position: relative;
@@ -298,11 +280,10 @@ input {
   width: 275px;
   color: black;
   /*Need to make the list items unselectable?*/
-  
 }
 
-#my-list li::before{
-  content: '';
+#my-list li::before {
+  content: "";
   position: absolute;
   border-color: #0d9c90;
   border-style: solid;
@@ -323,10 +304,9 @@ input {
   text-decoration: line-through;
 }
 
-
 /* Add a "checked" mark when clicked on */
 #my-list li.all-done::before {
-  content: '';
+  content: "";
   position: absolute;
   border-color: #0d9c90;
   border-style: solid;
@@ -344,12 +324,12 @@ input {
   right: 0;
   top: 0;
   padding: 6px 5px 6px 5px;
-  background-color = yellow;
+  background-color: yellow;
   border-style: solid;
 }
 
 .deleteButton:hover {
-  background-color = yellow;
+  background-color: yellow;
   color: white;
 }
 
@@ -369,4 +349,3 @@ input {
 #add-button:hover {
   background-color: #f4364c;
 }
-
