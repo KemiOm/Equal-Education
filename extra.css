@@ -1,0 +1,120 @@
+/******************************************************/
+/********** CHANGE CSS BASED ON SCREEN SIZE ***********/
+/******************************************************/
+
+/* IF THE SCREEN IS ~~700 OR LESS~~ IMPLEMENT THESE RULES */
+
+@media only screen and (max-width: 700px) {
+  /*------------index.html------------*/
+  .main-message,
+  .image-one,
+  .image-two {
+    background-attachment: scroll;
+  }
+}
+
+/*------------take-action.html------------*/
+.flex-container-action {
+  flex-wrap: wrap;
+}
+
+/* IF THE SCREEN IS ~~701 OR MORE~~ IMPLEMENT THESE RULES */
+
+@media only screen and (min-width: 701px) {
+  /*------------index.html------------*/
+  .title {
+    top: 10%;
+    padding: 0 60px;
+    margin: 5% 20.5%;
+    width: 50%;
+    font-size: 35px;
+    line-height: 80px;
+  }
+  
+  .flex-container {
+    padding: 35% 0 0 0;
+  }
+
+  /*------------take-action.html------------*/
+  .flex-container-action {
+    flex-wrap: nowrap;
+  }
+
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+}
+
+/* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
+@media only screen and (min-width: 1000px) {
+  .flex-container {
+    padding: 25% 0 0 0;
+  }
+}
+
+/* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
+@media only screen and (min-width: 1250px) {
+  h3 {
+    font-size: 35px;
+  }
+
+  /*------------index.html------------*/
+  .main-message,
+  .image-one,
+  .image-two {
+    background-attachment: fixed;
+  }
+
+  .main-message {
+    height: 75%;
+  }
+
+  .title {
+    top: 10%;
+    padding: 0 60px;
+    margin: 10% 20.5%;
+    width: 50%;
+    font-size: 40px;
+    line-height: 100px;
+  }
+
+  .flex-container {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    width: 60%;
+    padding: 25% 0 0 0;
+  }
+
+  .intro-text {
+    width: 70%;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 20px;
+  }
+
+  .textSection {
+    /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+    margin: 1.5% 15%;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+
+  /*------------take-action.html------------*/
+  .flex-container-action {
+    flex-wrap: nowrap;
+    margin: 5% auto;
+    width: 90%;
+  }
+
+  #list-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 20px 40px 40px;
+  }
+
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+}

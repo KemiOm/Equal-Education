@@ -32,32 +32,14 @@ h3 {
 }
 
 /************************************************/
-/*************** CSS FOR NAV BAR** **************/
+/*************** CSS FOR NAV BAR ****************/
 /************************************************/
-ul.nav-bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0D38D3;
-}
 
-li.nav {
-  float: right;
-}
+/* INSTRUCTIONS:
+Add a top nav bar that has home, take action, and about pages. 
+The background color should change when you hover over the link.
+*/
 
-li.nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the backgroung color to a lighter blue on hover */
-li.nav a:hover {
-  background-color: #0169E1;
-}
 
 /************************************************/
 /************** CSS FOR INDEX.HTML **************/
@@ -312,6 +294,8 @@ p.instructions {
   padding: 0.5em 0;
 }
 
+
+
 /******************************************************/
 /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
 /******************************************************/
@@ -323,7 +307,7 @@ p.instructions {
   .main-message,
   .image-one,
   .image-two {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 }
 
