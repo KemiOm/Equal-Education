@@ -117,73 +117,7 @@ h3 {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
 }
 
-/*-----------CHANGE CSS BASED ON SCREEN SIZE-----------*/
-@media only screen and (max-width: 700px) {
-  /* If the screen is 700 or less, implement these changes*/
-  .main-message,
-  .image-one,
-  .image-two {
-    background-attachment: scroll;
-  }
-}
 
-@media only screen and (min-width: 701px) {
-  /* If the screen is 701 or more, implement these changes*/
-  .title {
-    top: 10%;
-    padding: 0 60px;
-    margin: 5% 20.5%;
-    width: 50%;
-    font-size: 35px;
-    line-height: 80px;
-  }
-}
-
-@media only screen and (min-width: 1250px) {
-  /* If the screen is 1250 or more, implement these changes*/
-  .main-message,
-  .image-one,
-  .image-two {
-    background-attachment: fixed;
-  }
-
-  .main-message {
-    height: 75%;
-  }
-
-  .title {
-    top: 10%;
-    padding: 0 60px;
-    margin: 10% 20.5%;
-    width: 50%;
-    font-size: 40px;
-    line-height: 100px;
-  }
-
-  .flex-container {
-    flex-wrap: nowrap;
-    margin: 25% auto;
-    width: 60%;
-  }
-
-  .intro-text {
-    width: 70%;
-    font-size: 20px;
-    line-height: 1.5em;
-    padding: 20px;
-  }
-
-  .textSection {
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
-    margin: 1.5% 15%;
-    font-size: 20px;
-    line-height: 1.5em;
-  }
-
-  h3 {
-    font-size: 35px;
-  }
-}
 
 /*-----------TOP NAVIGATION BAR-----------*/
 ul.nav-bar {
@@ -223,7 +157,7 @@ li.nav a:hover {
 
 .flex-container-action {
   width: 90%;
-  margin: 50% auto;
+  margin: 20% auto;
   padding: 0.5em 0;
   border-style: dotted; /*Uncomment to see the outline of the container*/
 
@@ -234,7 +168,7 @@ li.nav a:hover {
 }
 
 /* Left box under title - This style is designed for mobile first */
-.subtitle {
+.left-container {
   padding: 15px;
   margin: 5px;
   flex-grow: 1;
@@ -243,7 +177,7 @@ li.nav a:hover {
 }
 
 /* Right box under title - This style is designed for mobile first */
-.intro-text {
+.right-container {
   padding: 15px;
   margin: 5px;
   flex-grow: 1;
@@ -251,6 +185,7 @@ li.nav a:hover {
   background-color: #0d9c90;
 }
 
+/*
 .left-container {
   box-sizing: border-box;
   padding: 0 30px 0 15px;
@@ -260,7 +195,7 @@ li.nav a:hover {
   display: inline-block;
   width: 40%;
   height: 80%;
-  /*border-style: dotted;*/ /*uncomment to see the boundaries of the box*/
+  /*border-style: dotted;*/ /*uncomment to see the boundaries of the box
 }
 
 .right-container {
@@ -273,12 +208,16 @@ li.nav a:hover {
   display: inline-block;
   width: 40%;
   height: 80%;
-  /*border-style: dotted;*/ /*uncomment to see the boundaries of the box*/
+  /*border-style: dotted;*/ /*uncomment to see the boundaries of the box
 }
+*/
 
 #list-container {
   background-color: white;
   border-radius: 15px;
+  border-style: dotted;
+  border-color: pink;
+  padding: 20px;
 }
 
 #list-header {
@@ -382,4 +321,88 @@ input {
 
 #add-button:hover {
   background-color: #f4364c;
+}
+
+/*-----------CHANGE CSS BASED ON SCREEN SIZE-----------*/
+
+/* If the screen is 700 or less, implement these changes*/
+@media only screen and (max-width: 700px) {
+  .main-message,
+  .image-one,
+  .image-two {
+    background-attachment: scroll;
+  }
+}
+
+/* If the screen is 701 or more, implement these changes*/
+@media only screen and (min-width: 701px) {
+  .title {
+    top: 10%;
+    padding: 0 60px;
+    margin: 5% 20.5%;
+    width: 50%;
+    font-size: 35px;
+    line-height: 80px;
+  }
+}
+
+/* If the screen is 1250 or more, implement these changes*/
+@media only screen and (min-width: 1250px) {
+  
+  h3 {
+    font-size: 35px;
+  }
+  
+  /*------------INDEX.HTML------------*/
+  .main-message,
+  .image-one,
+  .image-two {
+    background-attachment: fixed;
+  }
+
+  .main-message {
+    height: 75%;
+  }
+
+  .title {
+    top: 10%;
+    padding: 0 60px;
+    margin: 10% 20.5%;
+    width: 50%;
+    font-size: 40px;
+    line-height: 100px;
+  }
+
+  .flex-container {
+    flex-wrap: nowrap;
+    margin: 25% auto;
+    width: 60%;
+  }
+  
+  .intro-text {
+    width: 70%;
+    font-size: 20px;
+    line-height: 1.5em;
+    padding: 20px;
+  }
+
+  .textSection {
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+    margin: 1.5% 15%;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+
+  /*------------TAKE-ACTION.HTML------------*/
+   .flex-container-action {
+    flex-wrap: nowrap;
+    margin: 5% auto;
+    width: 90%;
+  }
+
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+  
 }
