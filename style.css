@@ -199,11 +199,7 @@ p.instructions {
   color: #0d9c90;
 }
 
-input {
-  margin: 0;
-  width: 200px; /*Sets width of box*/
-  padding: 10px;
-}
+
 
 #my-list {
   padding: 10px 0 0 0;
@@ -264,31 +260,16 @@ input {
   right: 0;
   top: 0;
   padding: 6px 5px 6px 5px;
-  background-color: yellow;
-  border-style: solid;
+  background-color: #0d9c90;
+  color: white;
+  
 }
 
 .deleteButton:hover {
-  background-color: yellow;
-  color: white;
-}
-
-#add-button {
-  padding: 10px;
-  width: 50px;
-  background: #0d9c90;
-  border-radius: 8px;
-  border: none;
-  margin-left: 10px;
-  color: white;
-  font-size: 12px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#add-button:hover {
   background-color: #f4364c;
+  color: white;
 }
+
 
 /*-----------CHANGE CSS BASED ON SCREEN SIZE-----------*/
 
@@ -329,8 +310,6 @@ input {
     margin-right: 10%;
   }
 }
-
-
 
 
 /* If the screen is 1250 or more, implement these changes*/
@@ -396,4 +375,29 @@ input {
     width: 50%;
     margin-right: 10%;
   }
+}
+
+
+/*------------CSS FOR ADD ITEM EXTENSION------------*/
+#add-button {
+  padding: 10px;
+  width: 50px;
+  background: #0d9c90;
+  border-radius: 8px;
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#add-button:hover {
+  background-color: #f4364c;
+}
+
+input {
+  margin: 0;
+  width: 200px; /*Sets width of box*/
+  padding: 10px;
 }
