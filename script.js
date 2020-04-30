@@ -1,26 +1,10 @@
 /* If you're feeling fancy you can add interactivity 
     to your site with Javascript */
 
-// Create a "close" button and append it to each list item
-var myNodelist = document.getElementsByClassName("action-li");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "deleteButton";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
-}
 
-// Click on a close button to hide the current list item
-var close = document.getElementsByClassName("deleteButton");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
-    var div = this.parentElement;
-    div.style.display = "none";
-  };
-}
+/************************************************/
+/************** STEP 1: ADD CHECKLIST FUNCTIONALITY ************/
+/************************************************/
 
 //mark checked items - function expression
 var fullItemList = document.getElementById("my-list");
@@ -49,6 +33,39 @@ Remove a class: element.classList.toggle("classToRemove", false);
 Add a class: element.classList.toggle("classToAdd", true);
 
 */
+
+/************************************************/
+/********* STEP 2: CREATE DELETE BUTTON *********/
+/************************************************/
+
+// Create a delete button [x] and append (or attach) it to each list item
+var myNodelist = document.getElementsByClassName("action-li");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "deleteButton";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+/************************************************/
+/************ STEP 3: ADD AN ACTION *************/
+/************** TO DELETE BUTTON ****************/
+/************************************************/
+
+// Click on a close button to hide the current list item
+var deleteBtn = document.getElementsByClassName("deleteButton");
+
+for (var i = 0; i < deleteBtn.length; i++) {
+  deleteBtn[i].addEventListener("click", closeListItem);
+}
+
+function closeListItem(){
+  var div = this.parentElement;
+    div.style.display = "none";
+}
+
 
 /************************************************/
 /************** CODE FOR EXTENSIONS *************/
