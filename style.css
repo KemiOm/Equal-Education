@@ -9,7 +9,7 @@ html {
   margin: 0em;
   color: white;
   background-color: #0d9c90;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 h1 {
@@ -41,7 +41,6 @@ h3 {
   /*Creates the scrolling effect*/
   background-attachment: fixed;
 }
-
 
 /*-----------TOP IMAGE + TEXT-----------*/
 /*Container for top image and text - Designed for mobile first*/
@@ -100,7 +99,6 @@ h3 {
   background-color: #0d9c90;
 }
 
-
 /*-----------TEXT SCROLLING SECTIONS-----------*/
 .textSection {
   background-color: #0d9c90;
@@ -116,8 +114,6 @@ h3 {
 .image-two {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
 }
-
-
 
 /*-----------TOP NAVIGATION BAR-----------*/
 ul.nav-bar {
@@ -215,8 +211,6 @@ li.nav a:hover {
 #list-container {
   background-color: white;
   border-radius: 15px;
-  border-style: dotted;
-  border-color: pink;
   padding: 20px;
 }
 
@@ -327,6 +321,7 @@ input {
 
 /* If the screen is 700 or less, implement these changes*/
 @media only screen and (max-width: 700px) {
+  /*------------INDEX.HTML------------*/
   .main-message,
   .image-one,
   .image-two {
@@ -334,8 +329,15 @@ input {
   }
 }
 
+/*------------TAKE-ACTION.HTML------------*/
+.flex-container-action {
+    flex-wrap: wrap;
+    
+  }
+
 /* If the screen is 701 or more, implement these changes*/
 @media only screen and (min-width: 701px) {
+  /*------------INDEX.HTML------------*/
   .title {
     top: 10%;
     padding: 0 60px;
@@ -344,15 +346,26 @@ input {
     font-size: 35px;
     line-height: 80px;
   }
+  
+  /*------------TAKE-ACTION.HTML------------*/
+  .flex-container-action {
+    flex-wrap: nowrap;
+  }
+  
+  .left-container {
+    margin-right: 10%;
+  }
 }
+
+
+
 
 /* If the screen is 1250 or more, implement these changes*/
 @media only screen and (min-width: 1250px) {
-  
   h3 {
     font-size: 35px;
   }
-  
+
   /*------------INDEX.HTML------------*/
   .main-message,
   .image-one,
@@ -378,7 +391,7 @@ input {
     margin: 25% auto;
     width: 60%;
   }
-  
+
   .intro-text {
     width: 70%;
     font-size: 20px;
@@ -387,22 +400,27 @@ input {
   }
 
   .textSection {
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+    /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
     margin: 1.5% 15%;
     font-size: 20px;
     line-height: 1.5em;
   }
 
   /*------------TAKE-ACTION.HTML------------*/
-   .flex-container-action {
+  .flex-container-action {
     flex-wrap: nowrap;
     margin: 5% auto;
     width: 90%;
+  }
+
+  #list-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 20px 40px 40px;
   }
 
   .left-container {
     width: 50%;
     margin-right: 10%;
   }
-  
 }
