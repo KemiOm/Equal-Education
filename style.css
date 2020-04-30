@@ -1,6 +1,6 @@
 /* CSS files add styling rules to your content */
 
-body,
+body, p,
 html {
   height: 100%;
   font: 15px;
@@ -121,7 +121,7 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #0D38D3;
 }
 
 li.nav {
@@ -138,7 +138,7 @@ li.nav a {
 
 /* Change the link color to #111 (black) on hover */
 li.nav a:hover {
-  background-color: #0d9c90;
+  background-color: #0169E1;
 }
 
 /*-----------ACTION ITEM LIST-----------*/
@@ -233,7 +233,12 @@ p.instructions {
 
 #my-list li:hover {
   background: #f3f3f3;
-  color: #f4364c;
+  color: #0169E1;
+}
+
+#my-list li:hover::before {
+  border-color: #0169E1;
+  border-style: solid;
 }
 
 /*When marked complete (i.e. clicked on) add strikethrough*/
@@ -245,7 +250,7 @@ p.instructions {
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0d9c90;
+  border-color: #0169E1;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
