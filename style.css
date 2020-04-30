@@ -42,6 +42,8 @@ h3 {
   background-attachment: fixed;
 }
 
+
+/*-----------TOP IMAGE + TEXT-----------*/
 /*Container for top image and text - Designed for mobile first*/
 .main-message {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
@@ -99,15 +101,14 @@ h3 {
 }
 
 
-
-/*Text scrolling sections*/
+/*-----------TEXT SCROLLING SECTIONS-----------*/
 .textSection {
   background-color: #0d9c90;
   padding: 20px 45px;
   margin: 35px;
 }
 
-/*Images*/
+/*-----------IMAGES-----------*/
 .image-one {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fmaryjackson.jpg?v=1587408388327");
 }
@@ -116,8 +117,9 @@ h3 {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
 }
 
+/*-----------CHANGE CSS BASED ON SCREEN SIZE-----------*/
 @media only screen and (max-width: 700px) {
-  /* If the screen is 750 or less, implement these changes*/
+  /* If the screen is 700 or less, implement these changes*/
   .main-message,
   .image-one,
   .image-two {
@@ -126,7 +128,7 @@ h3 {
 }
 
 @media only screen and (min-width: 701px) {
-  /* If the screen is 751 or more, implement these changes*/
+  /* If the screen is 701 or more, implement these changes*/
   .title {
     top: 10%;
     padding: 0 60px;
@@ -183,7 +185,7 @@ h3 {
   }
 }
 
-/* CSS FOR TOP NAVIGATION BAR */
+/*-----------TOP NAVIGATION BAR-----------*/
 ul.nav-bar {
   list-style-type: none;
   margin: 0;
@@ -209,7 +211,7 @@ li.nav a:hover {
   background-color: #0d9c90;
 }
 
-/* CSS FOR ACTION ITEM LIST */
+/*-----------ACTION ITEM LIST-----------*/
 
 .page-header {
   box-sizing: border-box;
@@ -217,6 +219,36 @@ li.nav a:hover {
   margin: 15px 15px 15px 35px;
   position: absolute;
   text-transform: uppercase;
+}
+
+.flex-container-action {
+  width: 90%;
+  margin: 50% auto;
+  padding: 0.5em 0;
+  border-style: dotted; /*Uncomment to see the outline of the container*/
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Left box under title - This style is designed for mobile first */
+.subtitle {
+  padding: 15px;
+  margin: 5px;
+  flex-grow: 1;
+  /*border-style: dotted;*/
+  background-color: #0d9c90;
+}
+
+/* Right box under title - This style is designed for mobile first */
+.intro-text {
+  padding: 15px;
+  margin: 5px;
+  flex-grow: 1;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  background-color: #0d9c90;
 }
 
 .left-container {
