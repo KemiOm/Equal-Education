@@ -195,6 +195,7 @@ li.nav a:hover {
 
 p.instructions {
   font: 14px "Roboto", sans-serif;
+  text-align: center;
   font-style: italic;
   color: #0d9c90;
 }
@@ -213,7 +214,7 @@ p.instructions {
   position: relative;
   list-style-type: none;
   transition: 0.2s;
-  width: 275px;
+  width: 85%;
   color: black;
   /*Need to make the list items unselectable?*/
 }
@@ -224,7 +225,7 @@ p.instructions {
   border-color: #0d9c90;
   border-style: solid;
   border-width: 2px;
-  top: 8px;
+  top: 12px;
   left: 13px;
   height: 10px;
   width: 10px;
@@ -307,8 +308,10 @@ p.instructions {
   }
   
   .left-container {
+    width: 50%;
     margin-right: 10%;
   }
+
 }
 
 
