@@ -1,6 +1,6 @@
 /* CSS files add styling rules to your content */
 
-body, p,
+body,
 html {
   height: 100%;
   font: 15px;
@@ -49,8 +49,8 @@ h3 {
   min-height: 100%;
   background-size: auto;
   background-color: #0d9c90;
-  border-style: groove; /*Uncomment to see the outline of the container*/
-  border-color: #0d9c90;
+  /*border-style: groove; /*Uncomment to see the outline of the container*/
+  border-color: #0169E1;
 }
 
 /*Title of the page*/
@@ -60,7 +60,7 @@ h3 {
   width: 75%;
   margin: 10% 11%;
   text-align: center;
-  background-color: #0d9c90;
+  background-color: #0169E1;
   color: white;
   padding: 5px;
   font-size: 30px;
@@ -275,6 +275,15 @@ p.instructions {
   background-color: #f4364c;
   color: white;
 }
+
+/*-----------ABOUT PAGE-----------*/
+.about-container {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 100px 60px 100px 60px;
+  padding: 0.5em 0;
+}
+
 
 
 /*-----------CHANGE CSS BASED ON SCREEN SIZE-----------*/
