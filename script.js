@@ -3,10 +3,12 @@
 
 
 /************************************************/
-/************** STEP 1: ADD CHECKLIST FUNCTIONALITY ************/
+/************ STEP 1: ADD CHECKLIST *************/
+/**************** FUNCTIONALITY *****************/
 /************************************************/
 
-//mark checked items - function expression
+/* GOAL: Click on a list item to mark it checked */
+
 var fullItemList = document.getElementById("my-list");
 fullItemList.addEventListener(
   "click",
@@ -38,7 +40,8 @@ Add a class: element.classList.toggle("classToAdd", true);
 /********* STEP 2: CREATE DELETE BUTTON *********/
 /************************************************/
 
-// Create a delete button [x] and append (or attach) it to each list item
+/* GOAL: Create a delete button [x] and append (or attach) it to each list item */
+
 var myNodelist = document.getElementsByClassName("action-li");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -54,7 +57,8 @@ for (i = 0; i < myNodelist.length; i++) {
 /************** TO DELETE BUTTON ****************/
 /************************************************/
 
-// Click on a close button to hide the current list item
+/* GOAL: Click on a close button to hide the current list item */
+
 var deleteBtn = document.getElementsByClassName("deleteButton");
 
 for (var i = 0; i < deleteBtn.length; i++) {
