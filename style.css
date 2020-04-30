@@ -191,31 +191,38 @@ li.nav a:hover {
   background-color: #0d9c90;
 }
 
+/* Holds all elements related to the action item list; inside the right container */
 #list-container {
   background-color: white;
   border-radius: 15px;
   padding: 20px;
+  border-style: solid;
+  border-color: #0169E1;
 }
 
+/* Header in the list container */
 #list-header {
   text-align: center;
-  color: #0d9c90;
+  color: #0169E1;
   letter-spacing: 1px;
 }
 
+/* Intructions inside the list container */
 p.instructions {
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
-  color: #0d9c90;
+  color: #0169E1;
 }
 
+/* The div container for the unordered action item list */
 #my-list {
   padding: 10px 0 0 0;
   margin: 0;
   font-size: 10pt;
 }
 
+/* Styling for individual action list items */
 #my-list li {
   cursor: pointer;
   padding: 8px 5px 8px 35px;
@@ -224,9 +231,9 @@ p.instructions {
   transition: 0.2s;
   width: 85%;
   color: black;
-  /*Need to make the list items unselectable?*/
 }
 
+/* Styling for the check squares added at the beginning of each list item */
 #my-list li::before {
   content: "";
   position: absolute;
@@ -239,17 +246,19 @@ p.instructions {
   width: 10px;
 }
 
+/* Change background color when cursor hovers over list items */
 #my-list li:hover {
   background: #f3f3f3;
   color: #0169E1;
 }
 
+/* Change check square color when cursor hovers over */
 #my-list li:hover::before {
   border-color: #0169E1;
   border-style: solid;
 }
 
-/*When marked complete (i.e. clicked on) add strikethrough*/
+/* When marked complete (i.e. clicked on) add strikethrough */
 #my-list li.all-done {
   text-decoration: line-through;
 }
@@ -268,7 +277,7 @@ p.instructions {
   width: 7px;
 }
 
-/*Style the delete button*/
+/* Style the delete button */
 .deleteButton {
   position: absolute;
   right: 0;
@@ -286,6 +295,8 @@ p.instructions {
 /******************************************************/
 /***************** CSS FOR ABOUT.HTML *****************/
 /******************************************************/
+
+/* Add a container for content in the about page */
 .about-container {
   box-sizing: border-box;
   width: 90%;
