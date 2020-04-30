@@ -49,7 +49,7 @@ li.nav a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the backgroung color to a lighter blue on hover */
 li.nav a:hover {
   background-color: #0169E1;
 }
@@ -147,6 +147,8 @@ li.nav a:hover {
   background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Fcorememory.png?v=1587408710145");
 }
 
+/* Add more images here for more scrolling! */
+
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
@@ -161,6 +163,7 @@ li.nav a:hover {
   background-color: #0169E1;
 }
 
+/* Flexbox container that holds all flex items */
 .flex-container-action {
   width: 90%;
   margin: 20% auto;
@@ -173,16 +176,16 @@ li.nav a:hover {
   justify-content: center;
 }
 
-/* Left box under title - This style is designed for mobile first */
+/* Left box under title; item in .flex-container (designed for mobile first) */
 .left-container {
   padding: 15px;
   margin: 5px;
   flex-grow: 1;
-  /*border-style: dotted;*/
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
 }
 
-/* Right box under title - This style is designed for mobile first */
+/* Right box under title; item in .flex-container (designed for mobile first) */
 .right-container {
   padding: 15px;
   margin: 5px;
@@ -336,6 +339,10 @@ p.instructions {
     font-size: 35px;
     line-height: 80px;
   }
+  
+  .flex-container {
+    padding: 35% 0 0 0;
+  }
 
   /*------------take-action.html------------*/
   .flex-container-action {
@@ -345,6 +352,13 @@ p.instructions {
   .left-container {
     width: 50%;
     margin-right: 10%;
+  }
+}
+
+/* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
+@media only screen and (min-width: 1000px) {
+  .flex-container {
+    padding: 25% 0 0 0;
   }
 }
 
