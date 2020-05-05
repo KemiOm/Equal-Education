@@ -34,18 +34,34 @@ h3 {
 
 
 /************************************************/
+/*************** CSS FOR NAV BAR ****************/
+/************************************************/
+
+/* INSTRUCTIONS:
+Add a top nav bar that has home, take action, and about pages. 
+The background color should change when you hover over the link.
+*/
+
+
+
+
+/************************************************/
 /************** CSS FOR INDEX.HTML **************/
 /************************************************/
 
 /*-----------PARALLAX SCROLL-----------*/
-/*https://www.w3schools.com/cssref/pr_background-attachment.asp*/
-.main-message {
+main-message,
+.image-one,
+.image-two {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #0d9c90;
   background-size: cover;
   min-height: 80%; /*Adjust the gap between sections*/
+
+  /*Create the scrolling effect here*/
+  
 }
 
 /*-----------TOP IMAGE + TEXT-----------*/
@@ -55,6 +71,26 @@ h3 {
   min-height: 100%;
   background-size: 250%;
   background-color: #0d9c90;
+  /*border-style: dotted; /*Uncomment to see the outline of the container*/
+  
+}
+
+/* Add a flexbox container for title and intro text */
+.flex-container {
+  
+
+}
+
+/* Style the title - the left box */
+.title {
+  
+  /*border-style: dotted;*/
+}
+
+/* Style the intro text - the right box */
+.intro-text {
+  
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 
@@ -68,17 +104,10 @@ h3 {
 /*-----------IMAGES-----------*/
 
 /* Add more images here for more scrolling! */
+.image-one {
+  background-image: url("placeholder.io");
+}
 
-
-
-/************************************************/
-/*************** CSS FOR NAV BAR ****************/
-/************************************************/
-
-/* INSTRUCTIONS:
-Add a top nav bar that has home, take action, and about pages. 
-The background color should change when you hover over the link.
-*/
 
 
 
@@ -112,7 +141,7 @@ The background color should change when you hover over the link.
   .main-message,
   .image-one,
   .image-two {
-    background-attachment: fixed;
+    
   }
 }
 
