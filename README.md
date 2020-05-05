@@ -1,37 +1,35 @@
-Welcome to Glitch
-=================
+# Update this for track 2
+# Personal Website Starter Project
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This is a place for you to start building your first project -- your personal website!
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+## Project Requirements
+Your project should:
+- Include one "Home" HTML page (that will be index.html) that's all about you!
+- Include one "Portfolio" HTML page that will showcase the projects you build in class.
+- Include a navigation bar that is included on all your website's pages.
+- Have all text, image(s), links, and/or videos on the page contained within appropriate HTML elements.
 
-Find out more [about Glitch](https://glitch.com/about).
+## Extensions
+You can extend your project further by:
+- Creating a "Blog" HTML page that you can use to write blog posts with your readers!
+- Adding accessibility features to your website.
 
+# Starter Code File Overview
 
-Your Project
-------------
+Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
 
-### ← README.md
+## ← index.html
 
-That's this file, where you can tell people what your cool website does and how you built it.
+This is your homepage. It should be the first page that you work on.
 
-### ← index.html
+## ← portfolio.html
+This will be your portfolio page.  
 
-Where you'll write the content of your website. 
+## ← script.js
 
-### ← style.css
+Later this week, you'll get fancy with the ability to add interactivity to your site with JavaScript. For now, there's no need to edit this file!
 
-CSS files add styling rules to your content.
+## ← styles.css
 
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+The file for your styles! You don't need to worry about editing this file right now. You'll learn more about CSS styling tomorrow. 
