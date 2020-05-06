@@ -3,7 +3,7 @@
 This is a place for you to start building your personal project in week 2.
 
 ## Project Requirements
-Your project should:
+You will:
 - Build a multipage website using HTML, CSS, and JavaScript.
 - Include a top navigation bar.
 - Use CSS and background image properties to create a parallax scroll effect on the homepage of your website.
@@ -16,12 +16,12 @@ Your project should:
 
 ## Extensions
 You can extend your project further by:
-- Customize the CSS of your site. 
-- Add accessibility features to your website. 
-- Add a resources page where your audience can get more information. 
-- Add social media buttons so your audience can spread the word. 
-- Add additional media like videos, audio, image galleries, etc. to enhance your message.
-- Add user input so your audience can add their own action items. 
+- Customizing the CSS of your site. 
+- Adding accessibility features to your website. 
+- Adding a resources page where your audience can get more information. 
+- Adding social media buttons so your audience can spread the word. 
+- Adding additional media like videos, audio, image galleries, etc. to enhance your message.
+- Adding user input so your audience can add their own action items. 
 
 
 # Starter Code File Overview
