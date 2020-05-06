@@ -85,7 +85,7 @@ The background color should change when you hover over the link.
 /* Style the title - the left box */
 .title {
   
-  /*border-style: dotted;*/
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Style the intro text - the right box */
