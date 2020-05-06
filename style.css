@@ -31,8 +31,6 @@ h3 {
   text-align: center;
 }
 
-
-
 /************************************************/
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
@@ -41,8 +39,6 @@ h3 {
 Add a top nav bar that has home, take action, and about pages. 
 The background color should change when you hover over the link.
 */
-
-
 
 /************************************************/
 /************** CSS FOR INDEX.HTML **************/
@@ -60,7 +56,6 @@ The background color should change when you hover over the link.
   min-height: 80%; /*Adjust the gap between sections*/
 
   /*Create the scrolling effect here*/
-  
 }
 
 /*-----------TOP IMAGE + TEXT-----------*/
@@ -72,27 +67,21 @@ The background color should change when you hover over the link.
   background-size: 250%;
   background-color: #0d9c90;
   /*border-style: dotted; /*Uncomment to see the outline of the container*/
-  
 }
 
 /* Add a flexbox container for title and intro text */
 .flex-container {
-  
-
 }
 
 /* Style the title - the left box */
 .title {
-  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Style the intro text - the right box */
 .intro-text {
-  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
-
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
 .textSection {
@@ -108,34 +97,22 @@ The background color should change when you hover over the link.
   background-image: url("image.jpg");
 }
 
-
-
 /******************************************************/
 /***************** CSS FOR ABOUT.HTML *****************/
 /******************************************************/
 
 /* Add a container for content in the about page */
 .about-container {
-  /*box-sizing: border-box;*/ /*Ken says this is duplicative, it's defined for the html tag earlier */
+  box-sizing: border-box;
   width: 90%;
   margin: 100px 60px 100px 60px;
   padding: 0.5em 0;
 }
 
-
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
 
-
-
-
-
-
-
-
-
 /******************************************************/
 /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
 /******************************************************/
-
