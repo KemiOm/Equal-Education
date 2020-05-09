@@ -1,0 +1,14 @@
+/******************************************************/
+/***************** CSS FOR ABOUT.HTML *****************/
+/******************************************************/
+
+/* Add a container for content in the about page */
+.about-container {
+  width: 90%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right:60px;
+  margin-left:60px;
+  padding: 0.5em 0;
+}
+

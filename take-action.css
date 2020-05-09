@@ -1,3 +1,5 @@
+/* Note to self - might need to add from final */
+
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
@@ -5,7 +7,6 @@
 /*-----------ACTION ITEM LIST-----------*/
 
 .page-header {
-  box-sizing: border-box;
   width: 100%;
   position: absolute;
   text-transform: uppercase;

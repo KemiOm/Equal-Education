@@ -1,5 +1,14 @@
-/* All of the main styles were created to be mobile friendly*/
-/* They are adjusted for larger screens in the @media section at the end */
+/* 
+
+This CSS file is contains the CSS rule sets for 
+    - index.html
+    - any universal elements that all pages use
+    - media rules for responsive design
+
+The CSS for the about.html is in about.css
+The CSS for the take-action.html is in take-action.css
+
+*/
 
 /************************************************/
 /************* UNIVERSAL ELEMENTS ***************/
@@ -44,10 +53,19 @@ The background color should change when you hover over the link.
 /************** CSS FOR INDEX.HTML **************/
 /************************************************/
 
+/*-----------TOP IMAGE + TEXT-----------*/
+/* Container for top image and text - Designed for mobile first */
+.main-message {
+  /* Insert the the url of the image address for your image here */
+  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
+  min-height: 100%;
+  background-size: 250%;
+  background-color: #0d9c90;
+  /*border-style: dotted; /*Uncomment to see the outline of the container*/
+}
+
 /*-----------PARALLAX SCROLL-----------*/
-.main-message,
-.image-one,
-.image-two {
+.main-message {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -57,17 +75,6 @@ The background color should change when you hover over the link.
 
   /*Create the scrolling effect here*/
   
-}
-
-/*-----------TOP IMAGE + TEXT-----------*/
-/* Container for top image and text - Designed for mobile first */
-.main-message {
-  /* Add your own image here */
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
-  min-height: 100%;
-  background-size: 250%;
-  background-color: #0d9c90;
-  /*border-style: dotted; /*Uncomment to see the outline of the container*/
 }
 
 /* Add a flexbox container for title and intro text */
@@ -98,21 +105,6 @@ The background color should change when you hover over the link.
   background-image: url("image.jpg");
 }
 
-/******************************************************/
-/***************** CSS FOR ABOUT.HTML *****************/
-/******************************************************/
-
-/* Add a container for content in the about page */
-.about-container {
-  box-sizing: border-box;
-  width: 90%;
-  margin: 100px 60px 100px 60px;
-  padding: 0.5em 0;
-}
-
-/******************************************************/
-/************** CSS FOR TAKE-ACTION.HTML **************/
-/******************************************************/
 
 /******************************************************/
 /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
