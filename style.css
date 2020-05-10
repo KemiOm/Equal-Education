@@ -34,7 +34,7 @@ h1 {
   text-align: center;
 }
 
-h3 {
+h2 {
   letter-spacing: 5px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
@@ -46,10 +46,36 @@ h3 {
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
 
-/* INSTRUCTIONS:
-Add a top nav bar that has home, take action, and about pages. 
-The background color should change when you hover over the link.
-*/
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0d9c90;
+  border-style: solid;
+  border-color: #0D38D3;
+}
+
+li.nav {
+  float: right;
+  font-size: 15px;
+}
+
+li.nav a {
+  display: block;
+  color: #0D38D3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Change the backgroung color to a lighter blue on hover */
+li.nav a:hover {
+  background-color: #0D38D3;
+  color: #0d9c90;
+}
 
 /************************************************/
 /************** CSS FOR INDEX.HTML **************/
