@@ -28,7 +28,7 @@ html {
 
 h1 {
   letter-spacing: 5px;
-  font-size: 25px; 
+  font-size: 25px;
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
   color: white;
   text-align: center;
@@ -36,7 +36,7 @@ h1 {
 
 h3 {
   letter-spacing: 5px;
-  font-size: 25px; 
+  font-size: 25px;
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
   color: white;
   text-align: center;
@@ -76,7 +76,6 @@ The background color should change when you hover over the link.
   min-height: 80%; /*Adjust the gap between sections*/
 
   /*Create the scrolling effect here*/
-  
 }
 
 /* Add a flexbox container for title and intro text */
@@ -107,7 +106,8 @@ The background color should change when you hover over the link.
   background-image: url("image.jpg");
 }
 
-
 /******************************************************/
 /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
 /******************************************************/
+
+
