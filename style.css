@@ -93,7 +93,7 @@ li.nav a:hover {
 }
 
 /*-----------PARALLAX SCROLL-----------*/
-.main-message {
+.main-message, .image-one {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ li.nav a:hover {
 
 /* Add more images here for more scrolling! */
 .image-one {
-  background-image: url("image.jpg");
+  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
 }
 
 /******************************************************/
