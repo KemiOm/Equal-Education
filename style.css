@@ -93,7 +93,8 @@ li.nav a:hover {
 }
 
 /*-----------PARALLAX SCROLL-----------*/
-.main-message, .image-one {
+.main-message,
+.image-one {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -135,5 +136,3 @@ li.nav a:hover {
 /******************************************************/
 /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
 /******************************************************/
-
-
