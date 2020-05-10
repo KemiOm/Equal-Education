@@ -40,7 +40,16 @@ This will hold your action item checklist and action description.
 Later this week, you'll edit this file to create your checklist.
 
 ## ← styles.css
-The file for your styles! We've already included a lot of them for you, but you should customize it as you want. 
+This CSS file is contains the CSS rule sets for index.html, any universal elements
+for all pages, and the media rules for responsive design. We've already included a lot of
+them for you, but you should customize it as you want. 
 
-## ← extra.css
-This is a file for additional CSS that we will add later in the week. It doesn't link to your HTML and any changes that you make in this file will **NOT** show up.
+Since there is a lot of CSS rule sets for this project, we broke out the ones that 
+are page specific in to separate files. You can attach multiple CSS files to a single HTML 
+file, so this allows us to stay organized.
+
+## ← about.css
+This CSS file contains the CSS rule set for about.html. 
+
+## ← take-action.css
+This CSS file contains the CSS rule set for take-action.html. 
