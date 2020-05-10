@@ -18,7 +18,7 @@ body,
 html {
   height: 100%;
   font: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif; /* Change this to your font */
   line-height: 1.5em;
   margin: 0em;
   color: white;
@@ -28,14 +28,14 @@ html {
 
 h1 {
   letter-spacing: 5px;
-  font: 25px "Roboto Mono", sans-serif;
+  font: 25px "Roboto Mono", sans-serif; /* Change this to your font */
   color: white;
   text-align: center;
 }
 
 h3 {
   letter-spacing: 5px;
-  font: 25px "Roboto Mono", sans-serif;
+  font: 25px "Roboto Mono", sans-serif; /* Change this to your font */
   color: white;
   text-align: center;
 }
@@ -57,7 +57,7 @@ The background color should change when you hover over the link.
 /* Container for top image and text - Designed for mobile first */
 .main-message {
   /* Insert the the url of the image address for your image here */
-  background-image: url("https://cdn.glitch.com/317b965b-0341-4f80-9657-10080095ce48%2Feniac.jpeg?v=1587416508886");
+  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
   min-height: 100%;
   background-size: 250%;
   background-color: #0d9c90;
