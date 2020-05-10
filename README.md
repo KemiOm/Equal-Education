@@ -21,6 +21,7 @@ You can extend your project further by:
 - Adding a resources page where your audience can get more information. 
 - Adding social media buttons so your audience can spread the word. 
 - Adding additional media like videos, audio, image galleries, etc. to enhance your message.
+- Make it responsive using @media rules.
 - Adding user input so your audience can add their own action items. 
 
 
