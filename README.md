@@ -29,7 +29,7 @@ You can extend your project further by:
 Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
 
 ## ← index.html
-This is your homepage. It should be the first page that you work on.
+This is your homepage where you will It has some starter code with placeholders for images, a title, intro text, and text descriptions.
 
 ## ← about.html
 This will be your about page. 
