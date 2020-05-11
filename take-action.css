@@ -6,7 +6,7 @@
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
 
-/*-----------ACTION ITEM LIST-----------*/
+/*-----------PAGE HEADER-----------*/
 
 .page-header-action {
   width: 100%;
@@ -14,6 +14,8 @@
   text-transform: uppercase;
   background-color: #0169E1;
 }
+
+/*-----------ACTION ITEM LIST-----------*/
 
 /* Flexbox container that holds all flex items */
 .flex-container-action {
