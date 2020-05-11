@@ -107,10 +107,30 @@ li.nav a:hover {
 
 /* Add a flexbox container for title and intro text */
 .flex-container {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #0D38D3;
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  padding: 5px;
+  align-items: center;
+  top: 50%;
+  left: 10%;
+  right: 10%;
 }
 
 /* Style the title - the left box */
 .title {
+  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
