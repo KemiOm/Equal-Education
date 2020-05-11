@@ -29,16 +29,16 @@ You can extend your project further by:
 Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
 
 ## ← index.html
-This is your homepage where you will It has some starter code with placeholders for images, a title, intro text, and text descriptions.
+This is your homepage where you will add the parallax scrolling effect. It has some starter code with placeholders for images, a title, intro text, and text descriptions.
 
 ## ← about.html
-This will be your about page. 
+This will be your about page where you add information about yourself.
 
 ## ← take-action.html
 This will hold your action item checklist and action description.
 
 ## ← script.js
-Later this week, you'll edit this file to create your checklist.
+This is where you will write the JavaScript to check off and delete items on your list. 
 
 ## ← styles.css
 This CSS file is contains the CSS rule sets for index.html, any universal elements
