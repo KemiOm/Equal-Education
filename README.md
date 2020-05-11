@@ -41,8 +41,8 @@ This will hold your action item checklist and action description.
 This is where you will write the JavaScript to check off and delete items on your list. 
 
 ## ← styles.css
-This CSS file is contains the CSS rule sets for index.html, any universal elements
-for all pages, and the media rules for responsive design. We've already included a lot of
+This CSS file is contains the CSS rule sets for index.html and any universal elements
+for all pages. We've already included a lot of
 them for you, but you should customize it as you want. 
 
 Since there is a lot of CSS rule sets for this project, we broke out the ones that 
