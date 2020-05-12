@@ -47,21 +47,23 @@ h2 {
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
 
-ul.nav-bar {
+ul.nav-bar { 
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0d9c90;
+  background-color: #43d6b9ff;
   border-style: solid;
   border-color: #0D38D3;
 }
 
+/* Style the li elements with the class nav */
 li.nav {
   float: right;
   font-size: 15px;
 }
 
+/* Style the a elements in the li class nav */
 li.nav a {
   display: block;
   color: #0D38D3;
@@ -72,10 +74,10 @@ li.nav a {
   font-weight: bold;
 }
 
-/* Change the backgroung color to a lighter blue on hover */
+/* Style the a elements in the li class nav when the mouse is hovering */
 li.nav a:hover {
   background-color: #0D38D3;
-  color: #0d9c90;
+  color: #43d6b9ff;
 }
 
 /************************************************/
@@ -89,7 +91,7 @@ li.nav a:hover {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
   min-height: 100%;
   background-size: 250%;
-  background-color: #0d9c90;
+  background-color: #0D38D3;
   /*border-style: dotted; /*Uncomment to see the outline of the container*/
 }
 
@@ -99,7 +101,7 @@ li.nav a:hover {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #0d9c90;
+  background-color: #43d6b9ff;
   background-size: cover;
   min-height: 80%; /*Adjust the gap between sections*/
 
@@ -124,7 +126,7 @@ li.nav a:hover {
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
 .text-section {
-  background-color: #0d9c90;
+  background-color: #0D38D3;
   padding: 20px 45px;
   margin: 35px;
 }
