@@ -17,29 +17,30 @@ The CSS for the take-action.html is in take-action.css
 body,
 html {
   height: 100%;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif; /* Change this to your font */
   line-height: 1.5em;
   margin: 0em;
   color: white;
-  background-color: #0d9c90;
+  background-color: #0D38D3;
   box-sizing: border-box;
 }
 
 h1 {
   letter-spacing: 5px;
-  font-size: 25px;
+  font-size: 50px;
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
-  color: white;
+  color: #43d6b9ff;
   text-align: center;
 }
 
 h2 {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-size: 25px;
   font-family: "Roboto Mono", sans-serif; /* Change this to your font */
-  color: white;
+  color: #43d6b9ff;
   text-align: center;
+  line-height: 1.3em;
 }
 
 /************************************************/
@@ -111,7 +112,7 @@ li.nav a:hover {
 }
 
 /* Style the title - the left box */
-.title {
+.heading-home {
   
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
@@ -122,7 +123,7 @@ li.nav a:hover {
 }
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
-.textSection {
+.text-section {
   background-color: #0d9c90;
   padding: 20px 45px;
   margin: 35px;
