@@ -9,6 +9,9 @@
 
 /* GOAL: Click on a list item to mark it checked */
 
+
+
+/*
 var fullItemList = document.getElementById("my-list");
 fullItemList.addEventListener(
   "click",
@@ -21,6 +24,7 @@ fullItemList.addEventListener(
   },
   false
 );
+*/
 
 /*
 classlist.toggle()
