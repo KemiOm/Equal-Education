@@ -34,7 +34,7 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-/* Left box under title; item in .flex-container (designed for mobile first) */
+/* Left box under title; item in .flex-container */
 .action-info-container {
   width: 50%;
   margin-right: 10%;
@@ -45,7 +45,7 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-/* Right box under title; item in .flex-container (designed for mobile first) */
+/* Right box under title; item in .flex-container */
 .action-list-container {
   padding: 35px;
   margin: 5%;
@@ -54,7 +54,7 @@
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-/* Holds all elements related to the action item list; inside the right container */
+/* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
   background-color: white;
   border-radius: 15px;
@@ -64,6 +64,7 @@
   padding-left: 40px;
   border-style: solid;
   border-color: #43d6b9ff;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 
@@ -72,6 +73,7 @@
   text-align: center;
   color: #0D38D3;
   letter-spacing: 1px;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Intructions inside the list container */
@@ -80,6 +82,8 @@ p.instructions {
   text-align: center;
   font-style: italic;
   color: #0D38D3;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  
 }
 
 /* The div container for the unordered action item list */
@@ -98,6 +102,7 @@ p.instructions {
   transition: 0.2s;
   width: 85%;
   color: black;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Styling for the check squares added at the beginning of each list item */
@@ -107,7 +112,7 @@ p.instructions {
   border-color: #43d6b9ff;
   border-style: solid;
   border-width: 2px;
-  top: 12px;
+  top: 15px;
   left: 13px;
   height: 10px;
   width: 10px;
