@@ -11,10 +11,10 @@
 var fullItemList = document.getElementById("my-list");
 fullItemList.addEventListener("click", checkOffItem, false);
 
-function checkOffItem(test) {
-  if (test.target.tagName == "LI") {
+function checkOffItem(clicked) {
+  if (clicked.target.tagName == "LI") {
     //find out which element triggered a specified event
-    test.target.classList.toggle("all-done");
+    clicked.target.classList.toggle("all-done");
   }
 }
 
@@ -80,6 +80,7 @@ function closeListItem() {
   var div = this.parentElement;
   div.style.display = "none";
 }
+
 
 /************************************************/
 /************** CODE FOR EXTENSIONS *************/
