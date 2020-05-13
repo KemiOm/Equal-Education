@@ -9,12 +9,12 @@
 /* GOAL: Click on a list item to mark it checked */
 
 var fullItemList = document.getElementById("my-list");
-fullItemList.addEventListener("click", checkItem, false);
+fullItemList.addEventListener("click", checkOffItem, false);
 
-function checkItem(event) {
-  if (event.target.tagName == "LI") {
+function checkOffItem(test) {
+  if (test.target.tagName == "LI") {
     //find out which element triggered a specified event
-    event.target.classList.toggle("all-done");
+    test.target.classList.toggle("all-done");
   }
 }
 
