@@ -20,7 +20,7 @@
   position: absolute;
   padding: 0.5em 0;
   align-items: center;
-  top: 5%;
+
   left: 5%;
   right: 5%;
 
@@ -30,7 +30,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -38,11 +38,17 @@
 .action-info-container {
   width: 50%;
   margin-right: 10%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding: 35px;
-  margin: 5%;
   font-size: 16px;
   flex-grow: 1;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+}
+
+.action-info-container img{
+  width: 100%;
 }
 
 /* Right box under title; item in .flex-container */
@@ -58,13 +64,13 @@
 #checklist {
   background-color: white;
   border-radius: 15px;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-right: 20px;
   padding-bottom: 40px;
   padding-left: 40px;
   border-style: solid;
   border-color: #43d6b9ff;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  border-style: dotted; /*Uncomment to see the outline of the container*/
 }
 
 
@@ -77,7 +83,7 @@
 }
 
 /* Intructions inside the list container */
-p.instructions {
+#instructions {
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
