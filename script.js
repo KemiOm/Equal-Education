@@ -12,40 +12,13 @@ var fullItemList = document.getElementById("my-list");
 fullItemList.addEventListener("click", checkOffItem, false);
 
 function checkOffItem(clicked) {
+  //find out which element triggered a specified event
   if (clicked.target.tagName == "LI") {
-    //find out which element triggered a specified event
+    //apply the CSS rule set outlined in .all-done if condition is met
     clicked.target.classList.toggle("all-done");
   }
 }
 
-/*
-var fullItemList = document.getElementById("my-list");
-fullItemList.addEventListener(
-  "click",
-  function(event) {
-    //this is a function expression - it allows us to create a function inside the event listener
-    if (event.target.tagName == "LI") {
-      //find out which element triggered a specified event
-      event.target.classList.toggle("all-done");
-    }
-  },
-  false
-);
-*/
-
-/*
-classlist.toggle()
-Toggles between a class name for an element.
-
-The first parameter removes the specified class from an element, and returns false.
-If the class does not exist, it is added to the element, and the return value is true.
-
-The optional second parameter is a Boolean value that forces the class to be added or removed, regardless of whether or not it already existed. For example:
-
-Remove a class: element.classList.toggle("classToRemove", false);
-Add a class: element.classList.toggle("classToAdd", true);
-
-*/
 
 /************************************************/
 /********* STEP 2: CREATE DELETE BUTTON *********/
@@ -53,14 +26,13 @@ Add a class: element.classList.toggle("classToAdd", true);
 
 /* GOAL: Create a delete button [x] and append (or attach) it to each list item */
 
-var myNodelist = document.getElementsByClassName("action-li");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
+var actionItemNodes = document.getElementsByClassName("action-li");
+for (var i = 0; i < actionItemNodes.length; i++) {
   var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
+  var x = document.createTextNode("\u00D7");
   span.className = "deleteButton";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
+  span.appendChild(x);
+  actionItemNodes[i].appendChild(span);
 }
 
 /************************************************/
