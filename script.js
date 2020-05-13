@@ -12,7 +12,7 @@
 var fullItemList = document.getElementById("my-list");
 fullItemList.addEventListener(
   "click",
-  test(event),
+  test(),
   false
 );
 
