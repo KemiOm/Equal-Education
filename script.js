@@ -27,6 +27,7 @@ function checkOffItem(clicked) {
 /* GOAL: Create a delete button [x] and append (or attach) it to each list item */
 
 var actionItemNodes = document.getElementsByClassName("action-li");
+
 for (var i = 0; i < actionItemNodes.length; i++) {
   var span = document.createElement("SPAN");
   var x = document.createTextNode("\u00D7");
