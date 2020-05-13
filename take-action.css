@@ -55,17 +55,20 @@
 }
 
 /* Holds all elements related to the action item list; inside the right container */
-#list-container {
+#checklist {
   background-color: white;
   border-radius: 15px;
-  padding: 20px 20px 40px 40px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
   border-style: solid;
   border-color: #43d6b9ff;
 }
 
 
 /* Header in the list container */
-#list-header {
+#checklist-header {
   text-align: center;
   color: #0D38D3;
   letter-spacing: 1px;
