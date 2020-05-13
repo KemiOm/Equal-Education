@@ -9,7 +9,20 @@
 
 /* GOAL: Click on a list item to mark it checked */
 
+var fullItemList = document.getElementById("my-list");
+fullItemList.addEventListener(
+  "click",
+  test(event),
+  false
+);
 
+function test(event){
+    //this is a function expression - it allows us to create a function inside the event listener
+    if (event.target.tagName == "LI") {
+      //find out which element triggered a specified event
+      event.target.classList.toggle("all-done");
+    }
+  }
 
 /*
 var fullItemList = document.getElementById("my-list");
