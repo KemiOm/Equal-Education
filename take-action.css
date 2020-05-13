@@ -1,66 +1,73 @@
-/* Note to self - might need to add from final */
-
-/* This CSS file is contains the CSS rule sets for take-action.html */
-
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
-
-/*-----------PAGE HEADER-----------*/
 
 .page-header-action {
   width: 100%;
   position: absolute;
   text-transform: uppercase;
-  background-color: #0169E1;
+  background-color: #0D38D3;
 }
 
-/*-----------ACTION ITEM LIST-----------*/
+/******************************************************/
+/***************** ACTION ITEM LIST *******************/
+/******************************************************/
 
 /* Flexbox container that holds all flex items */
 .flex-container-action {
-  width: 90%;
-  margin: 20% auto;
-  padding: 0.5em 0;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
-
   display: flex;
+
+  position: absolute;
+  padding: 0.5em 0;
+  align-items: center;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+
+  margin: 5% 0;
+  width: 90%;
+
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
+  align-items: center;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Left box under title; item in .flex-container (designed for mobile first) */
 .left-container {
-  padding: 15px;
-  margin: 5px;
+  width: 50%;
+  margin-right: 10%;
+  padding: 35px;
+  margin: 5%;
+  font-size: 16px;
   flex-grow: 1;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
-  background-color: #0d9c90;
 }
 
 /* Right box under title; item in .flex-container (designed for mobile first) */
 .right-container {
-  padding: 15px;
-  margin: 5px;
+  padding: 35px;
+  margin: 5%;
   flex-grow: 1;
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   background-color: #0d9c90;
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Holds all elements related to the action item list; inside the right container */
 #list-container {
   background-color: white;
   border-radius: 15px;
-  padding: 20px;
+  padding: 20px 20px 40px 40px;
   border-style: solid;
-  border-color: #0169E1;
+  border-color: #43d6b9ff;
 }
+
 
 /* Header in the list container */
 #list-header {
   text-align: center;
-  color: #0169E1;
+  color: #0D38D3;
   letter-spacing: 1px;
 }
 
@@ -69,7 +76,7 @@ p.instructions {
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
-  color: #0169E1;
+  color: #0D38D3;
 }
 
 /* The div container for the unordered action item list */
@@ -94,7 +101,7 @@ p.instructions {
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #0d9c90;
+  border-color: #43d6b9ff;
   border-style: solid;
   border-width: 2px;
   top: 12px;
@@ -106,12 +113,12 @@ p.instructions {
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
   background: #f3f3f3;
-  color: #0169E1;
+  color: #0D38D3;
 }
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: #0169E1;
+  border-color: #0D38D3;
   border-style: solid;
 }
 
@@ -124,7 +131,7 @@ p.instructions {
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0169E1;
+  border-color: #0D38D3;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
@@ -140,7 +147,7 @@ p.instructions {
   right: 0;
   top: 0;
   padding: 6px 5px 6px 5px;
-  background-color: #0d9c90;
+  background-color: #43d6b9ff;
   color: white;
 }
 
@@ -148,9 +155,3 @@ p.instructions {
   background-color: #f4364c;
   color: white;
 }
-
-
-/******************************************************/
-/********** CHANGE CSS BASED ON SCREEN SIZE ***********/
-/******************************************************/
-
