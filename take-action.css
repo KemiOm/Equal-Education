@@ -35,7 +35,7 @@
 }
 
 /* Left box under title; item in .flex-container (designed for mobile first) */
-.left-container {
+.action-info-container {
   width: 50%;
   margin-right: 10%;
   padding: 35px;
@@ -46,7 +46,7 @@
 }
 
 /* Right box under title; item in .flex-container (designed for mobile first) */
-.right-container {
+.action-list-container {
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
