@@ -35,7 +35,7 @@ function checkOffItem(clicked) {
 
 var actionListItem = document.getElementsByClassName("action-li");
 
-for (var i = 0; i < actionListItem.length; i++) {
+for (var i = 0; i < 3; i++) {
   var newSpan = document.createElement("span");
   var x = document.createTextNode("X");
   newSpan.appendChild(x);
