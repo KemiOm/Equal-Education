@@ -55,9 +55,11 @@ for (var i = 0; i < deleteBtn.length; i++) {
   deleteBtn[i].addEventListener("click", closeListItem);
 }
 
+
 function closeListItem() {
   var div = this.parentElement;
   div.style.display = "none";
 }
+
 
 
