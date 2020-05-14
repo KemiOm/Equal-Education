@@ -20,16 +20,10 @@ function checkOffItem(clicked) {
 }
 
 /************************************************/
-/********* TRY A LOOP *********/
+/****************** TRY A LOOP ******************/
 /************************************************/
 
-var text = "";
-var i;
-for (i = 1; i < 5; i++) {
-  text += "Do task #" + i + "<br>";
-}
-
-document.getElementById("loop").innerHTML = text;
+/* Add code to practice loops here */
 
 
 
@@ -39,14 +33,14 @@ document.getElementById("loop").innerHTML = text;
 
 /* GOAL: Create a delete button [x] and append (or attach) it to each list item */
 
-var actionItemNodes = document.getElementsByClassName("action-li");
+var actionListItem = document.getElementsByClassName("action-li");
 
-for (var i = 0; i < actionItemNodes.length; i++) {
+for (var i = 0; i < actionListItem.length; i++) {
   var span = document.createElement("SPAN");
-  var x = document.createTextNode("\u00D7");
+  var deleteNode = document.createTextNode("\u00D7");
   span.className = "deleteButton";
-  span.appendChild(x);
-  actionItemNodes[i].appendChild(span);
+  span.appendChild(deleteNode);
+  actionListItem[i].appendChild(span);
 }
 
 /************************************************/
