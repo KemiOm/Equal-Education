@@ -64,13 +64,11 @@
 #checklist {
   background-color: white;
   border-radius: 15px;
-  padding-top: 0px;
-  padding-right: 20px;
-  padding-bottom: 40px;
-  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   border-style: solid;
   border-color: #43d6b9ff;
-  border-style: dotted; /*Uncomment to see the outline of the container*/
+  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 
