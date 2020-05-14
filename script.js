@@ -1,5 +1,3 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
 
 /************************************************/
 /********* ADD CHECKLIST FUNCTIONALITY **********/
@@ -54,7 +52,6 @@ var deleteBtn = document.getElementsByClassName("deleteButton");
 for (var i = 0; i < deleteBtn.length; i++) {
   deleteBtn[i].addEventListener("click", closeListItem);
 }
-
 
 function closeListItem() {
   this.parentElement.style.display = "none";
