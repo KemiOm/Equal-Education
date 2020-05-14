@@ -57,8 +57,7 @@ for (var i = 0; i < deleteBtn.length; i++) {
 
 
 function closeListItem() {
-  var div = this.parentElement;
-  div.style.display = "none";
+  this.parentElement.style.display = "none";
 }
 
 
