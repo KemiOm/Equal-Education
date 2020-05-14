@@ -29,7 +29,7 @@ for (i = 1; i < 5; i++) {
   text += "Do task #" + i + "<br>";
 }
 
-document.getElementById("loop").innerHTML = text;
+
 
 
 
