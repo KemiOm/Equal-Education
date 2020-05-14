@@ -21,7 +21,7 @@ You can extend your project further by:
 - Adding a resources page where your audience can get more information. 
 - Adding social media buttons so your audience can spread the word. 
 - Adding additional media like videos, audio, image galleries, etc. to enhance your message.
-- Make it responsive using @media rules.
+- Making it responsive using @media rules.
 
 
 # Starter Code File Overview

@@ -12,6 +12,7 @@
 /************************************************/
 
 /* Add code to practice loops here */
+/* Be sure to delete them or comment them out when you are finished with that section */
 
 
 
