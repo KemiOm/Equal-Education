@@ -37,10 +37,11 @@ var actionListItem = document.getElementsByClassName("action-li");
 
 for (var i = 0; i < actionListItem.length; i++) {
   var newSpan = document.createElement("span");
-  var x = document.createTextNode("\u00D7");
-  newSpan.className = "deleteButton";
+  var x = document.createTextNode("X");
   newSpan.appendChild(x);
   actionListItem[i].appendChild(newSpan);
+  
+  newSpan.className = "deleteButton";
 }
 
 /************************************************/
