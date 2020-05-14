@@ -36,11 +36,11 @@ function checkOffItem(clicked) {
 var actionListItem = document.getElementsByClassName("action-li");
 
 for (var i = 0; i < actionListItem.length; i++) {
-  var span = document.createElement("SPAN");
-  var deleteNode = document.createTextNode("\u00D7");
-  span.className = "deleteButton";
-  span.appendChild(deleteNode);
-  actionListItem[i].appendChild(span);
+  var newSpan = document.createElement("span");
+  var x = document.createTextNode("\u00D7");
+  newSpan.className = "deleteButton";
+  newSpan.appendChild(x);
+  actionListItem[i].appendChild(newSpan);
 }
 
 /************************************************/
