@@ -36,14 +36,14 @@
 
 /* Left box under title; item in .flex-container */
 .action-info-container {
-  width: 50%;
-  margin-right: 10%;
-  margin-left: 5%;
+  width: 100%;
+  margin-right: 5%;
+  margin-left: 0;
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 35px;
   font-size: 16px;
-  flex-grow: 1;
+  flex-grow: 2;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -53,6 +53,7 @@
 
 /* Right box under title; item in .flex-container */
 .action-list-container {
+  width: 75%;
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
@@ -100,7 +101,10 @@
 /* Styling for individual action list items */
 #my-list li {
   cursor: pointer;
-  padding: 8px 5px 8px 35px;
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 8px; 
+  padding-left: 35px;
   position: relative;
   list-style-type: none;
   transition: 0.2s;
@@ -116,6 +120,7 @@
   border-color: #43d6b9ff;
   border-style: solid;
   border-width: 2px;
+  
   top: 15px;
   left: 13px;
   height: 10px;
@@ -158,7 +163,11 @@
   position: absolute;
   right: 0;
   top: 0;
-  padding: 6px 5px 6px 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
   background-color: #43d6b9ff;
   color: white;
 }
