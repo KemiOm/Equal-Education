@@ -5,10 +5,9 @@ This is a place for you to start building your personal project in week 2.
 ## Project Requirements
 You will:
 - Build a multipage website using HTML, CSS, and JavaScript.
-- Include a top navigation bar.
 - Use CSS and background image properties to create a parallax scroll effect on the homepage of your website.
 - Use the DOM, functions, event listeners, and JavaScript events to create an action item checklist.
-- Use flexbox and media rules to create a responsive website.
+- Use flexbox to layout your website.
 - Customize the look and feel of your site through colors, images, and  fonts using CSS. 
 - Use comments to describe your code.
 
@@ -21,7 +20,6 @@ You can extend your project further by:
 - Adding a resources page where your audience can get more information. 
 - Adding social media buttons so your audience can spread the word. 
 - Adding additional media like videos, audio, image galleries, etc. to enhance your message.
-- Making it responsive using @media rules.
 
 
 # Starter Code File Overview
