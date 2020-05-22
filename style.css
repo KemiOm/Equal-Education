@@ -102,7 +102,8 @@ li.nav a:hover {
 
 /*-----------PARALLAX SCROLL-----------*/
 .main-message,
-.image-one {
+.image-one,
+.image-two {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -111,6 +112,7 @@ li.nav a:hover {
   min-height: 80%; /*Adjust the gap between sections*/
 
   /*Create the scrolling effect here*/
+  background-attachment: fixed;
 }
 
 /* Add a flexbox container for title and intro text */
