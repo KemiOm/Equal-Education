@@ -22,6 +22,8 @@ You can extend your project further by:
 - Adding additional media like videos, audio, image galleries, etc. to enhance your message.
 - Making your website reponsive.
 
+## Image Attributions
+- Insert here
 
 # Starter Code File Overview
 Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
