@@ -15,8 +15,10 @@
 /* Be sure to delete them or comment them out when you are finished with that section */
 
 // #TODO 1: Create an array that contains 5 items (at least one string) using literal notation. 
+// Print it to the console to check your work.
 
 // #TODO 2: Use Array.from to create an array from a string in the previous array.
+// Print it to the console to check your work.
 
 // #TODO 3: Print the second item from your first array and the last item from your second array to the console. 
 
