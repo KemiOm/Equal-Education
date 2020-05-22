@@ -90,7 +90,7 @@ li.nav a:hover {
 /************************************************/
 
 /*-----------TOP IMAGE + TEXT-----------*/
-/* Container for top image and text - Designed for mobile first */
+/* Container for top image and text */
 .main-message {
   /* Insert the the url of the image address for your image here */
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
