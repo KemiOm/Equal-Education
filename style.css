@@ -145,6 +145,15 @@ li.nav a:hover {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
 }
 
+
+/*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
+.attributions {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+
 /******************************************************/
 /********** CHANGE CSS BASED ON SCREEN SIZE ***********/
 /******************************************************/
