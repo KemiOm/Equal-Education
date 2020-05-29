@@ -112,7 +112,7 @@ li.nav a:hover {
   min-height: 80%; /*Adjust the gap between sections*/
 
   /*Create the scrolling effect here*/
-  background-attachment: fixed;
+  
 }
 
 /* Add a flexbox container for title and intro text */
