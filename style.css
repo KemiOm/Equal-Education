@@ -102,8 +102,7 @@ li.nav a:hover {
 
 /*-----------PARALLAX SCROLL-----------*/
 .main-message,
-.image-one,
-.image-two {
+.image-one {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
