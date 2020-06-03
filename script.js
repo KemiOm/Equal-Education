@@ -6,6 +6,26 @@
 
 
 
+
+/************************************************/
+/************* CREATE DELETE BUTTON *************/
+/************************************************/
+
+/* TODO: Create an array from the "action-li" list items and use .forEach to loop through each item and append a delete button element */
+
+
+
+
+
+/************************************************/
+/*************** ADD INTERACTION ****************/
+/************************************************/
+
+/* TODO: Loop through the delete buttons and add an event listener to each one. Tell the listener to wait for a mouse click, then hide the list item */
+
+
+
+
 /************************************************/
 /*************** PRACTICE ARRAYS ****************/
 /************************************************/
@@ -34,25 +54,3 @@
 
 //TODO: Create a new array containing 5 of your favorite things. Use the .forEach method to print each of them 
 // Print out to the console with the phrase “ is my favorite!” after the item. For example, “Chocolate is my favorite!”
-
-
-
-/************************************************/
-/************* CREATE DELETE BUTTON *************/
-/************************************************/
-
-/* TODO: Create an array from the "action-li" list items and use .forEach to loop through each item and append a delete button element */
-
-
-
-
-
-/************************************************/
-/*************** ADD INTERACTION ****************/
-/************************************************/
-
-/* TODO: Loop through the delete buttons and add an event listener to each one. Tell the listener to wait for a mouse click, then hide the list item */
-
-
-
-
