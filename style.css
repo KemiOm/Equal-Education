@@ -30,7 +30,7 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: "Roboto Mono", sans-serif; 
+  font-family: "Roboto Mono", sans-serif;
   color: #43d6b9ff;
   text-align: center;
 }
@@ -45,7 +45,7 @@ h2 {
   line-height: 1.3em;
 }
 
-p a{
+p a {
   color: #43d6b9ff;
   text-decoration: none;
 }
@@ -54,7 +54,7 @@ p a{
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
 
-ul.nav-bar { 
+ul.nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -96,12 +96,9 @@ li.nav a:hover {
 .main-message {
   /* TODO: Insert the the url of the image address for your image here */
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
-  min-height: 100%;
-  background-size: 250%;
-  background-color: #0D38D3;
-  
+
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;
+  /*border-style: dotted;*/
 }
 
 /*-----------PARALLAX SCROLL-----------*/
@@ -112,39 +109,25 @@ li.nav a:hover {
   background-repeat: no-repeat;
   background-color: #43d6b9ff;
   background-size: cover;
-  min-height: 80%; /*Adjust the gap between sections*/
+  min-height: 100%; /*Adjust the gap between sections*/
 
   /* TODO: Create the scrolling effect here*/
-  
 }
-
-
 
 /* TODO: Add the CSS properties to the flexbox container for title and intro text */
 .flex-container {
-
-  
-  
-  
 }
 
 /* TODO: Add the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
-  
-  
-  
 }
 
-/* TODO: Add the CSS properties to the flex item for the intro text (the right box) */  
+/* TODO: Add the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
-  
-  
-  
-  
 }
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
@@ -164,15 +147,7 @@ li.nav a:hover {
 
 /* TODO: Add a second background image. Copy the rule set for .image-one, change the class selector to .image-two, and add your new image URL */
 
-  
-  
-  
 /* TODO: Add more background images by repeating the process above and changing the class selector based on the image */
-
-  
-  
-  
-  
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
@@ -180,7 +155,6 @@ li.nav a:hover {
   text-align: right;
   margin-right: 10px;
 }
-
 
 /******************************************************/
 /***** EXTENSION: CHANGE CSS BASED ON SCREEN SIZE *****/
