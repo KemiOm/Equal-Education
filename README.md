@@ -49,3 +49,7 @@ This file contains the CSS rule set for about.html.
 
 ## ← take-action.css
 This file contains the CSS rule set for take-action.html.
+
+---
+
+###### *NOTE: This project is adapted from the How To Create a To Do List by W3 Schools*
