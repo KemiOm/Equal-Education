@@ -99,7 +99,9 @@ li.nav a:hover {
   min-height: 100%;
   background-size: 250%;
   background-color: #0D38D3;
-  /*border-style: dotted; /*Uncomment to see the outline of the container*/
+  
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;
 }
 
 /*-----------PARALLAX SCROLL-----------*/
@@ -128,16 +130,21 @@ li.nav a:hover {
 
 /* TODO: Add the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
   
   
   
 }
 
+/* TODO: Add the CSS properties to the flex item for the intro text (the right box) */  
 .intro-text {
-  /* TODO: Add the CSS properties to the flex item for the intro text (the right box) */
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
   
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  
+  
+  
 }
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
@@ -157,8 +164,15 @@ li.nav a:hover {
 
 /* TODO: Add a second background image. Copy the rule set for .image-one, change the class selector to .image-two, and add your new image URL */
 
+  
+  
+  
 /* TODO: Add more background images by repeating the process above and changing the class selector based on the image */
 
+  
+  
+  
+  
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
