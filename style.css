@@ -13,11 +13,12 @@ The CSS for the take-action.html is in take-action.css
 /************* UNIVERSAL ELEMENTS ***************/
 /************************************************/
 
+/*TODO: Change the font-family property to your linked font*/
 body,
 html {
   height: 100%;
   font-size: 20px;
-  font-family: "Roboto", sans-serif; /* Change this to your font */
+  font-family: "Roboto", sans-serif;
   line-height: 1.5em;
   margin: 0em;
   color: white;
@@ -28,15 +29,17 @@ html {
 h1 {
   letter-spacing: 5px;
   font-size: 50px;
-  font-family: "Roboto Mono", sans-serif; /* Change this to your font */
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Roboto Mono", sans-serif; 
   color: #43d6b9ff;
   text-align: center;
 }
 
+/*TODO: Change the font-family property to your linked font*/
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
-  font-family: "Roboto Mono", sans-serif; /* Change this to your font */
+  font-family: "Roboto Mono", sans-serif;
   color: #43d6b9ff;
   text-align: center;
   line-height: 1.3em;
