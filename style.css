@@ -110,23 +110,24 @@ li.nav a:hover {
   background-size: cover;
   min-height: 80%; /*Adjust the gap between sections*/
 
-  /*Create the scrolling effect here*/
+  /* TODO: Create the scrolling effect here*/
   
 }
 
-/* Add a flexbox container for title and intro text */
 .flex-container {
+  /* TODO: Add the CSS properties to the flexbox container for title and intro text */
   
 }
 
-/* Style the title - the left box */
 .heading-home {
+  /* TODO: Add the CSS properties to the flex item for the heading (the left box) */
   
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
-/* Style the intro text - the right box */
 .intro-text {
+  /* TODO: Add the CSS properties to the flex item for the intro text (the right box) */
+  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -139,10 +140,14 @@ li.nav a:hover {
 
 /*-----------IMAGES-----------*/
 
-/* Add more images here for more scrolling! */
+/* TODO: Replace the current image URL with your own */
 .image-one {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
 }
+
+/* TODO: Add a second background image. Copy the rule set for .image-one, change the class selector to .image-two, and add your new image URL */
+
+/* TODO: Add more background images by repeating the process above and changing the class selector based on the image */
 
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/

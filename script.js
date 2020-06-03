@@ -22,7 +22,7 @@
 
 // #TODO 3: Print the second item from your first array and the last item from your second array to the console. 
 
-// TO DO #4: Create a new array containing 5 of your favorite things. Use the .forEach method to print each of them 
+// #TODO 4: Create a new array containing 5 of your favorite things. Use the .forEach method to print each of them 
 // out to the console with the phrase “ is my favorite!” after the item. For example, “Chocolate is my favorite!”
 
 
