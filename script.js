@@ -31,7 +31,7 @@
 /************* CREATE DELETE BUTTON *************/
 /************************************************/
 
-/* GOAL: Create an array from the "action-li" list items and use .forEach to loop through each item and append a delete button element */
+/* TODO: Create an array from the "action-li" list items and use .forEach to loop through each item and append a delete button element */
 
 
 
@@ -39,7 +39,7 @@
 /*************** ADD INTERACTION ****************/
 /************************************************/
 
-/* GOAL: Click on a close button to hide the current list item */
+/* TODO: Loop through the delete buttons and add an event listener to each one. Tell the listener to wait for a mouse click, then hide the list item */
 
 
 
