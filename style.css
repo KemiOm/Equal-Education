@@ -116,15 +116,22 @@ li.nav a:hover {
   
 }
 
+
+
+/* TODO: Add the CSS properties to the flexbox container for title and intro text */
 .flex-container {
-  /* TODO: Add the CSS properties to the flexbox container for title and intro text */
+
+  
+  
   
 }
 
+/* TODO: Add the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
-  /* TODO: Add the CSS properties to the flex item for the heading (the left box) */
+  /*border-style: dotted;*/
   
-  /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
+  
+  
 }
 
 .intro-text {
