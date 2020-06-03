@@ -136,6 +136,7 @@ li.nav a:hover {
   background-color: #0D38D3;
   padding: 20px 45px;
   margin: 35px;
+  text-align: center;
 }
 
 /*-----------IMAGES-----------*/
@@ -159,5 +160,5 @@ li.nav a:hover {
 
 
 /******************************************************/
-/********** CHANGE CSS BASED ON SCREEN SIZE ***********/
+/***** EXTENSION: CHANGE CSS BASED ON SCREEN SIZE *****/
 /******************************************************/

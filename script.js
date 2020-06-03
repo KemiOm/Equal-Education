@@ -3,7 +3,7 @@
 /********* ADD CHECKLIST FUNCTIONALITY **********/
 /************************************************/
 
-/* GOAL: Click on a list item to mark it checked */
+/* TODO: Add event listeners that mark an item as checked when a person clicks on it */
 
 
 
@@ -31,7 +31,7 @@
 /************* CREATE DELETE BUTTON *************/
 /************************************************/
 
-/* GOAL: Create a delete button [x] and append (or attach) it to each list item */
+/* GOAL: Create an array from the "action-li" list items and use .forEach to loop through each item and append a delete button element */
 
 
 
