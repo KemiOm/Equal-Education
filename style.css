@@ -13,16 +13,16 @@ The CSS for the take-action.html is in take-action.css
 /************* UNIVERSAL ELEMENTS ***************/
 /************************************************/
 
-/*TODO: Change the font-family property to your linked font*/
+/* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
 body,
 html {
   height: 100%;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5em;
+  font-size: 20px;                     /* Change the font size*/
+  font-family: "Roboto", sans-serif;   /* Change the font */
+  line-height: 1.5em;                  /* Change the line height size*/
   margin: 0em;
-  color: white;
-  background-color: #0D38D3;
+  color: white;                        /* Change the font color*/
+  background-color: #0D38D3;           /* Change the background color */
   box-sizing: border-box;
 }
 
