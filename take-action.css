@@ -9,6 +9,7 @@
   background-color: #0D38D3;
 }
 
+
 /******************************************************/
 /***************** ACTION ITEM LIST *******************/
 /******************************************************/
@@ -158,28 +159,22 @@
   width: 7px;
 }
 
-/* Style the delete button */
-.deleteButton {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 5px;
-  padding-left: 5px;
-  margin-left: 5px;
-  background-color: #43d6b9ff;
-  color: white;
-}
-
-.deleteButton:hover {
-  background-color: #f4364c;
-  color: white;
-}
-
-/*-------------------* EXTENSIONS *-------------------*/
 
 
 /******************************************************/
 /** CHANGE TAKE-ACTION.HTML CSS BASED ON SCREEN SIZE **/
 /******************************************************/
+
+/* TODO: Add media rules if the screen is 700px or less */
+
+
+
+/* TODO: Add media rules if the screen is 701px or more */
+
+
+
+/* TODO: Add media rules if the screen is 1000px or more */
+
+
+
+/* TODO: Add media rules if the screen is 1250px or more */
