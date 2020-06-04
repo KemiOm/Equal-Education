@@ -165,16 +165,52 @@
 /** CHANGE TAKE-ACTION.HTML CSS BASED ON SCREEN SIZE **/
 /******************************************************/
 
-/* TODO: Add media rules if the screen is 700px or less */
+/* IF THE SCREEN IS ~~700 OR LESS~~ IMPLEMENT THESE RULES */
 
+@media only screen and (max-width: 700px) {
 
+  .flex-container-action {
+    flex-wrap: wrap;
+  }
+}
 
-/* TODO: Add media rules if the screen is 701px or more */
+/* IF THE SCREEN IS ~~701 OR MORE~~ IMPLEMENT THESE RULES */
 
+@media only screen and (min-width: 701px) {
+  
+  .flex-container-action {
+    flex-wrap: wrap;
+  }
 
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+}
 
-/* TODO: Add media rules if the screen is 1000px or more */
+/* IF THE SCREEN IS ~~1000 OR MORE~~ IMPLEMENT THESE RULES */
+@media only screen and (min-width: 1000px) {
 
+  .flex-container-action {
+    flex-wrap: nowrap;
+  }
+}
 
+/* IF THE SCREEN IS ~~1250 OR MORE~~ IMPLEMENT THESE RULES */
+@media only screen and (min-width: 1250px) {
+  
+  .flex-container-action {
+    flex-wrap: nowrap;
+  }
 
-/* TODO: Add media rules if the screen is 1250px or more */
+  #list-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 20px 40px 40px;
+  }
+
+  .left-container {
+    width: 50%;
+    margin-right: 10%;
+  }
+}
