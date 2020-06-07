@@ -88,8 +88,25 @@ li.nav a:hover {
 }
 
 /************************************************/
-/************** CSS FOR INDEX.HTML **************/
+/*************** CSS FOR HEADING ****************/
 /************************************************/
+
+
+/* TODO: Add the CSS properties to the flexbox container for title and intro text */
+.flex-container {
+}
+
+/* TODO: Add the CSS properties to the flex item for the heading (the left box) */
+.heading-home {
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+/* TODO: Add the CSS properties to the flex item for the intro text (the right box) */
+.intro-text {
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
 
 /*-----------TOP IMAGE + TEXT-----------*/
 /* Container for top image and text */
@@ -114,21 +131,6 @@ li.nav a:hover {
   /* TODO: Create the scrolling effect here*/
 }
 
-/* TODO: Add the CSS properties to the flexbox container for title and intro text */
-.flex-container {
-}
-
-/* TODO: Add the CSS properties to the flex item for the heading (the left box) */
-.heading-home {
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
-}
-
-/* TODO: Add the CSS properties to the flex item for the intro text (the right box) */
-.intro-text {
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
-}
 
 /*-----------TEXT SCROLLING SECTIONS-----------*/
 .text-section {
