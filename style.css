@@ -107,18 +107,16 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   justify-content: center;   /* Justify the flex items to the center */
   align-items: center;       /* Align the flex items to the center */
 
+  /* Design properties */
   background-color: #0D38D3;
-
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
   padding: 5px;
+  
+  /* Positioning properties */
+  position: absolute;
   align-items: center;
   top: 50%; /* Change this value to move the box up or down */
-  left: 10%;
-  right: 10%;
+  left: 15%;
+  right: 15%;
   
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
