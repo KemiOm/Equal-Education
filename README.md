@@ -20,7 +20,6 @@ You can extend your project further by:
 - Adding a resources page where your audience can get more information. 
 - Adding social media buttons so your audience can spread the word. 
 - Adding additional media like videos, audio, image galleries, etc. to enhance your message.
-- Making your website reponsive.
 
 ## Image Attributions
 - Insert here
@@ -31,9 +30,6 @@ Your full activity instructions are in HQ, but here's a little cheat-sheet of th
 ## ← index.html
 This is your homepage. It should be the first page that you work on.
 
-## ← about.html
-This will be your about page. 
-
 ## ← take-action.html
 This will hold your action item checklist and action description.
 
@@ -43,9 +39,6 @@ Later this week, you'll edit this file to create your checklist.
 ## ← styles.css
 ThIS file contains the CSS rule sets for index.html and any universal elements for all pages. 
 We've already included a lot of them for you, but you should customize it as you want.
-
-## ← about.css
-This file contains the CSS rule set for about.html.
 
 ## ← take-action.css
 This file contains the CSS rule set for take-action.html.
