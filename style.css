@@ -148,11 +148,7 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
 }
 
 
-
-/*-----------IMAGE URLS-----------*/
-
-
-.main-message { /* Container for top image and heading text */
+.main-message { 
   
   /* TODO: Insert the the url of the image address for your image here */
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
