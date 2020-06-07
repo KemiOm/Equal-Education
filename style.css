@@ -101,16 +101,53 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
 
 /* TODO: Add the CSS properties to the flexbox container for title and intro text */
 .flex-container {
+  display: flex;             /* Set the flexbox display */
+  flex-direction: row;       /* Configure the flex items to row */
+  flex-wrap: nowrap;         /* Don’t wrap the flex items */
+  justify-content: center;   /* Justify the flex items to the center */
+  align-items: center;       /* Align the flex items to the center */
+
+  background-color: #0D38D3;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  padding: 5px;
+  align-items: center;
+  top: 50%;
+  left: 10%;
+  right: 10%;
 }
 
 /* TODO: Add the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
+   padding: 4%;
+  margin: 2%;
+  text-align: center;
+  color: #43d6b9ff;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
 
 /* TODO: Add the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
+  padding: 4%;
+  margin: 2%;
+  text-align: center;
+  color: #0D38D3; /* Add the color of your font */
+  background-color: #43d6b9ff; /* Add your own background color */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 2px; /* Adds space between letters */
+  line-height: 1.4em; /* Adds space between lines */
+  
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
@@ -133,7 +170,7 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
-/* TODO: Add the CSS selector for each image to this rule set */
+/* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
 .image-one { 
@@ -149,7 +186,6 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
 
 /* TODO: Replace the current image URL with your own */
 .main-message { 
-  /* TODO: Insert the the url of the image address for your image here */
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
 }
 
@@ -158,9 +194,9 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
 }
 
-/* TODO: Add a second background image. Copy the rule set for .image-one, change the class selector to .image-two, and add your new image URL */
+/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
 
-/* TODO: Add more background images by repeating the process above and changing the class selector based on the image */
+/* TODO: Add more background images by repeating the process above */
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
@@ -171,7 +207,7 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
 
 
 /******************************************************/
-/********** CHANGE CSS BASED ON SCREEN SIZE ***********/
+/***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
 
 
