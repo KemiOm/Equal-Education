@@ -4,7 +4,6 @@ This CSS file is contains the CSS rule sets for
     - index.html
     - any universal elements that all pages use
 
-The CSS for the about.html is in about.css
 The CSS for the take-action.html is in take-action.css
 
 */
@@ -54,7 +53,11 @@ p a {
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
 
-ul.nav-bar {
+/* All of these TODOs are optional. You should change the styling based on your mockup */
+
+/* TODO (optional): Change the background color and/or border style */
+
+ul.nav-bar {  /* Styling for the <ul class="nav-bar"> element */       
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -64,14 +67,16 @@ ul.nav-bar {
   border-color: #0D38D3;
 }
 
-/* Style the li elements with the class nav */
-li.nav {
+/* TODO (optional): Change the font size*/
+
+li.nav { /* Styling for the <li class="nav"> element */
   float: right;
   font-size: 15px;
 }
 
-/* Style the a elements in the li class nav */
-li.nav a {
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a { /* Styling for the <a> elements in <li class="nav"> */
   display: block;
   color: #0D38D3;
   text-align: center;
@@ -81,14 +86,16 @@ li.nav a {
   font-weight: bold;
 }
 
-/* Style the a elements in the li class nav when the mouse is hovering */
-li.nav a:hover {
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
+li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #0D38D3;
   color: #43d6b9ff;
 }
 
+
 /************************************************/
-/*************** CSS FOR HEADING ****************/
+/*********** CSS FOR FLEXBOX HEADING ************/
 /************************************************/
 
 
@@ -108,19 +115,26 @@ li.nav a:hover {
   /*border-style: dotted;*/
 }
 
-/*-----------TOP IMAGE + TEXT-----------*/
-/* Container for top image and text */
-.main-message {
-  /* TODO: Insert the the url of the image address for your image here */
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+/************************************************/
+/*************** PARALLAX SCROLL ****************/
+/************************************************/
 
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
+/*-----------TEXT SCROLLING SECTIONS-----------*/
+
+/* TODO (optional): Change the background color and/or text alignment */
+
+.text-section {
+  background-color: #0D38D3;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
 }
 
-/*-----------PARALLAX SCROLL-----------*/
+
+/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+
 .main-message,
-.image-one {
+.image-one { 
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -132,15 +146,15 @@ li.nav a:hover {
 }
 
 
-/*-----------TEXT SCROLLING SECTIONS-----------*/
-.text-section {
-  background-color: #0D38D3;
-  padding: 20px 45px;
-  margin: 35px;
-  text-align: center;
-}
 
-/*-----------IMAGES-----------*/
+/*-----------IMAGE URLS-----------*/
+
+
+.main-message { /* Container for top image and heading text */
+  
+  /* TODO: Insert the the url of the image address for your image here */
+  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+}
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
