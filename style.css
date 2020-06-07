@@ -113,10 +113,9 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   
   /* Positioning properties */
   position: absolute;
-  align-items: center;
-  top: 50%; /* Change this value to move the box up or down */
   left: 15%;
   right: 15%;
+  top: 50%; /* Change this value to move the box up or down */
   
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
