@@ -133,6 +133,8 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
+/* TODO: Add the CSS selector for each image to this rule set */
+
 .main-message,
 .image-one { 
   position: relative;
@@ -140,9 +142,9 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   background-repeat: no-repeat;
   background-color: #43d6b9ff;
   background-size: cover;
-  min-height: 100%; /*Adjust the gap between sections*/
+  min-height: 100%; /* This adjusts the height of the image */
 
-  /* TODO: Create the scrolling effect here*/
+  /* TODO: Add the property to create the parallax scrolling effect here */
 }
 
 
