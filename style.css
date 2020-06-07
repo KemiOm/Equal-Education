@@ -116,9 +116,12 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   position: absolute;
   padding: 5px;
   align-items: center;
-  top: 50%;
+  top: 50%; /* Change this value to move the box up or down */
   left: 10%;
   right: 10%;
+  
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
 }
 
 /* TODO: Add the CSS properties to the flex item for the heading (the left box) */
@@ -146,8 +149,6 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
   
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
