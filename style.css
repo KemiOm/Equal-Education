@@ -180,6 +180,7 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed;
   
 }
 
