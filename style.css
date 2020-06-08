@@ -211,6 +211,7 @@ li.nav a:hover {
 
 /* TODO: Add media rules if the screen is 700px or less */
 @media only screen and (max-width: 700px) {
+  /*
   .main-message,
   .image-one,
   .image-two,
@@ -221,21 +222,53 @@ li.nav a:hover {
 
   .flex-container {
     flex-wrap: wrap;
-    top: 30%;
+    top: 20%;
   }
 }
 
 /* TODO: Add media rules if the screen is 701px or more */
-
 @media only screen and (min-width: 701px) {
+  /*
   .flex-container {
     flex-wrap: wrap;
     left: 25%;
     right: 25%;
     top: 30%;
   }
+  */
 }
 
-/* TODO: Add media rules if the screen is 1000px or more */
 
 /* TODO: Add media rules if the screen is 1250px or more */
+@media only screen and (min-width: 1250px) {
+  /*
+  h3 {
+    font-size: 35px;
+  }
+
+  .main-message,
+  .image-one,
+  .image-two,
+  .image-three,
+  .image-four {
+    background-attachment: fixed;
+  }
+
+  .main-message {
+    height: 75%;
+  }
+
+  .textSection {
+    margin: 1.5% 15%;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+  
+  .flex-container {
+    flex-wrap: nowrap;
+    left: 25%;
+    right: 25%;
+    top: 50%;
+  }
+  */
+}
