@@ -115,9 +115,9 @@ li.nav a:hover {
 
   /* Positioning properties */
   position: absolute;
-  left: 15%;
-  right: 15%;
-  top: 50%; /* Change this value to move the box up or down */
+  left: 20%;
+  right: 20%;
+  top: 40%; /* Change this value to move the box up or down */
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
@@ -125,8 +125,7 @@ li.nav a:hover {
 
 /* TODO: Add the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
-  padding: 4%;
-  margin: 2%;
+  padding: 2%;
   text-align: center;
   color: #43d6b9ff;
   font-size: 50px;
@@ -140,7 +139,7 @@ li.nav a:hover {
 /* TODO: Add the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
   padding: 4%;
-  margin: 2%;
+  margin: 3%;
   text-align: center;
   color: #0D38D3; /* Add the color of your font */
   background-color: #43d6b9ff; /* Add your own background color */
