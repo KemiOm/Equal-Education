@@ -180,7 +180,6 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-  background-attachment: fixed;
   
 }
 
@@ -209,16 +208,8 @@ li.nav a:hover {
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
 
-/* TODO: Add media rules if the screen is 700px or less */
-@media screen (max-width: 700px) {
-  
-  .main-message,
-  .image-one,
-  .image-two,
-  .image-three,
-  .image-four {
-    background-attachment: scroll;
-  }
+/* TODO: Add a breakpoint if the screen is 700px or less */
+@media screen and (max-width: 700px) {
 
   .flex-container {
     flex-wrap: wrap;
@@ -226,49 +217,4 @@ li.nav a:hover {
   }
 }
 
-/* TODO: Add media rules if the screen is 701px or more */
-@media screen and (min-width: 701px) {
-  /*
-  .flex-container {
-    flex-wrap: wrap;
-    left: 25%;
-    right: 25%;
-    top: 30%;
-  }
-  */
-}
-
-
-/* TODO: Add media rules if the screen is 1250px or more */
-@media screen and (min-width: 1250px) {
-  /*
-  h3 {
-    font-size: 35px;
-  }
-
-  .main-message,
-  .image-one,
-  .image-two,
-  .image-three,
-  .image-four {
-    background-attachment: fixed;
-  }
-
-  .main-message {
-    height: 75%;
-  }
-
-  .textSection {
-    margin: 1.5% 15%;
-    font-size: 20px;
-    line-height: 1.5em;
-  }
-  
-  .flex-container {
-    flex-wrap: nowrap;
-    left: 25%;
-    right: 25%;
-    top: 50%;
-  }
-  */
-}
+/* TODO: Add additional breakpoints based on your website's design
