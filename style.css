@@ -210,8 +210,8 @@ li.nav a:hover {
 /******************************************************/
 
 /* TODO: Add media rules if the screen is 700px or less */
-@media only screen and (max-width: 700px) {
-  /*
+@media (max-width: 700px) {
+  
   .main-message,
   .image-one,
   .image-two,
@@ -227,7 +227,7 @@ li.nav a:hover {
 }
 
 /* TODO: Add media rules if the screen is 701px or more */
-@media only screen and (min-width: 701px) {
+@media screen and (min-width: 701px) {
   /*
   .flex-container {
     flex-wrap: wrap;
@@ -240,7 +240,7 @@ li.nav a:hover {
 
 
 /* TODO: Add media rules if the screen is 1250px or more */
-@media only screen and (min-width: 1250px) {
+@media screen and (min-width: 1250px) {
   /*
   h3 {
     font-size: 35px;
