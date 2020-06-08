@@ -16,12 +16,12 @@ The CSS for the take-action.html is in take-action.css
 body,
 html {
   height: 100%;
-  font-size: 20px;                     /* Change the font size*/
-  font-family: "Roboto", sans-serif;   /* Change the font */
-  line-height: 1.5em;                  /* Change the line height size*/
+  font-size: 20px; /* Change the font size*/
+  font-family: "Roboto", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
-  color: white;                        /* Change the font color*/
-  background-color: #0D38D3;           /* Change the background color */
+  color: white; /* Change the font color*/
+  background-color: #0D38D3; /* Change the background color */
   box-sizing: border-box;
 }
 
@@ -57,7 +57,8 @@ p a {
 
 /* TODO (optional): Change the background color and/or border style */
 
-ul.nav-bar {  /* Styling for the <ul class="nav-bar"> element */       
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -69,14 +70,16 @@ ul.nav-bar {  /* Styling for the <ul class="nav-bar"> element */
 
 /* TODO (optional): Change the font size*/
 
-li.nav { /* Styling for the <li class="nav"> element */
+li.nav {
+  /* Styling for the <li class="nav"> element */
   float: right;
   font-size: 15px;
 }
 
 /* TODO (optional): Change the font color, decoration, and/or case */
 
-li.nav a { /* Styling for the <a> elements in <li class="nav"> */
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
   display: block;
   color: #0D38D3;
   text-align: center;
@@ -88,49 +91,48 @@ li.nav a { /* Styling for the <a> elements in <li class="nav"> */
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
 
-li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
   background-color: #0D38D3;
   color: #43d6b9ff;
 }
-
 
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
 /************************************************/
 
-
 /* TODO: Add the CSS properties to the flexbox container for title and intro text */
 .flex-container {
-  display: flex;             /* Set the flexbox display */
-  flex-direction: row;       /* Configure the flex items to row */
-  flex-wrap: nowrap;         /* Don’t wrap the flex items */
-  justify-content: center;   /* Justify the flex items to the center */
-  align-items: center;       /* Align the flex items to the center */
+  display: flex; /* Set the flexbox display */
+  flex-direction: row; /* Configure the flex items to row */
+  flex-wrap: nowrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
 
   /* Design properties */
   background-color: #0D38D3;
   padding: 5px;
-  
+
   /* Positioning properties */
   position: absolute;
   left: 15%;
   right: 15%;
   top: 50%; /* Change this value to move the box up or down */
-  
+
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
 
 /* TODO: Add the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
-   padding: 4%;
+  padding: 4%;
   margin: 2%;
   text-align: center;
   color: #43d6b9ff;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
-  
+
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
@@ -145,7 +147,7 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   font-size: 20px; /* Add your font size*/
   letter-spacing: 2px; /* Adds space between letters */
   line-height: 1.4em; /* Adds space between lines */
-  
+
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
   /*border-style: dotted;*/
 }
@@ -154,7 +156,7 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
 /*************** PARALLAX SCROLL ****************/
 /************************************************/
 
-/*-----------TEXT SCROLLING SECTIONS-----------*/
+/*-----------TEXT SECTIONS-----------*/
 
 /* TODO (optional): Change the background color and/or text alignment */
 
@@ -165,13 +167,12 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   text-align: center;
 }
 
-
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one { 
+.image-one {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -183,7 +184,7 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
 }
 
 /* TODO: Replace the current image URL with your own */
-.main-message { 
+.main-message {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
 }
 
@@ -203,22 +204,14 @@ li.nav a:hover { /* Styling for the <a> elements when the mouse is hovering in <
   margin-right: 10px;
 }
 
-
 /******************************************************/
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
 
-
 /* TODO: Add media rules if the screen is 700px or less */
-
-
 
 /* TODO: Add media rules if the screen is 701px or more */
 
-
-
 /* TODO: Add media rules if the screen is 1000px or more */
-
-
 
 /* TODO: Add media rules if the screen is 1250px or more */
