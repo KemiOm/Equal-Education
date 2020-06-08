@@ -180,9 +180,10 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
+  
 }
 
-/* TODO: Replace the current image URL with your own */
+/* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
   background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
 }
