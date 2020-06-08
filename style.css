@@ -210,7 +210,7 @@ li.nav a:hover {
 /******************************************************/
 
 /* TODO: Add media rules if the screen is 700px or less */
-@media (max-width: 700px) {
+@media screen (max-width: 700px) {
   
   .main-message,
   .image-one,
