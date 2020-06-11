@@ -30,15 +30,15 @@ Your full activity instructions are in HQ, but here's a little cheat-sheet of th
 ## ← index.html
 This is your homepage. It should be the first page that you work on.
 
-## ← take-action.html
-This will hold your action item checklist and action description.
-
 ## ← script.js
 Later this week, you'll edit this file to create your checklist.
 
 ## ← styles.css
 ThIS file contains the CSS rule sets for index.html and any universal elements for all pages. 
 We've already included a lot of them for you, but you should customize it as you want.
+
+## ← take-action.html
+This will hold your action item checklist and action description.
 
 ## ← take-action.css
 This file contains the CSS rule set for take-action.html.
