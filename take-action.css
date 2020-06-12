@@ -127,6 +127,14 @@
   height: 10px;
   width: 10px;
 }
+/* 
+A note on the checkbox: This is actually just a neat trick. Before the 
+item is clicked, the CSS file inserts a blank space through the content: "";
+property. You can draw a border around this blank space so it appears like 
+a box. After the item is clicked, new CSS rules are applied that remove the 
+border from two sides and rotate the blank space by 45 degress so it looks 
+like a checkmark!
+*/
 
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
