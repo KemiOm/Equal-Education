@@ -109,8 +109,7 @@ li.nav a:hover {
   flex-wrap: nowrap; 
   justify-content: center; 
   align-items: center; 
-  flex-wrap: wrap;
-  top: 20%;
+  
 
   /* Design properties */
   background-color: #383e56;
@@ -214,7 +213,10 @@ li.nav a:hover {
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
 @media screen and (max-width:700px) {
-/* CSS rule sets */
+  .flex-container{
+    flex-wrap: wrap;
+  top: 20%;
+  }
 }
 
 /* TODO: Add additional breakpoints based on your website's design
