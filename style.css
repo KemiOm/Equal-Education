@@ -17,7 +17,7 @@ body,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
-  font-family: 'Anton', sans-serif; /* Change the font */
+  font-family: 'Anton', sans-serif; 
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
@@ -64,9 +64,9 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #43d6b9ff;
+  background-color: #d4b5b0;
   border-style: solid;
-  border-color: #0D38D3;
+  border-color: #f69e7b;
 }
 
 /* TODO (optional): Change the font size*/
@@ -141,7 +141,7 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #d4b5b0; 
+  background-color: #f69e7b; 
   padding: 4%;
   margin: 3%;
   color: #eedad1;
@@ -176,7 +176,8 @@ li.nav a:hover {
 .main-message,
 .image-one,
 .image-two,
-.image-three{
+.image-three,
+.image-four{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -202,8 +203,12 @@ li.nav a:hover {
 .image-two {
   background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2FIMG_8145.JPG?v=1594742885103");
 }
-/* TODO: Add more background images by repeating the process above */
-
+.image-three {
+  background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2Fboy%20with%20book.jpg?v=1594742876796");
+}
+.image-four {
+  background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2FIMG_8143.JPG?v=1594742881626");
+}
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
 .attributions {
   font-size: 12px;
