@@ -151,7 +151,7 @@ li.nav a:hover {
   text-align: center;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
+  
 }
 
 /************************************************/
@@ -163,7 +163,7 @@ li.nav a:hover {
 /* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
-  background-color: #0D38D3;
+  background-color: #f69e7b;
   padding: 20px 45px;
   margin: 35px;
   text-align: center;
@@ -183,7 +183,7 @@ li.nav a:hover {
   min-height: 100%; /* This adjusts the height of the image */
 
   /* TODO: Add the property to create the parallax scrolling effect here */
-  
+ background-attachment: fixed;
 }
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
@@ -193,7 +193,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own */
 .image-one {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fpuppy.jpg?v=1589146535603");
+  background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2FIMG_8144.JPG?v=1594742883273");
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
