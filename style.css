@@ -17,7 +17,7 @@ body,
 html {
   height: 100%;
   font-size: 20px; /* Change the font size*/
-  font-family: "Roboto", sans-serif; /* Change the font */
+  font-family: 'Anton', sans-serif; /* Change the font */
   line-height: 1.5em; /* Change the line height size*/
   margin: 0em;
   color: white; /* Change the font color*/
@@ -29,8 +29,8 @@ h1 {
   letter-spacing: 5px;
   font-size: 50px;
   /*TODO: Change the font-family property to your linked font*/
-  font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
+  font-family: 'Anton', sans-serif;
+  color: #eedad1;
   text-align: center;
 }
 
@@ -38,8 +38,8 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
-  font-family: "Roboto Mono", sans-serif;
-  color: #43d6b9ff;
+  font-family: 'Anton', sans-serif;
+  color: #eedad1;
   text-align: center;
   line-height: 1.3em;
 }
@@ -186,7 +186,7 @@ li.nav a:hover {
 
 /* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
 .main-message {
-  background-image: url("https://cdn.glitch.com/eb615d20-f1f4-4443-bd45-85e1d5bde77b%2Fkitten.jpg?v=1589124083210");
+  background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2Fsupplies.webp?v=1594742886528");
 }
 
 /* TODO: Replace the current image URL with your own */
