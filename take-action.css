@@ -8,6 +8,41 @@
   text-transform: uppercase;
   background-color: #0D38D3;
 }
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d4b5b0;
+  border-style: solid;
+  border-color: #f69e7b;
+}
+
+
+li.nav {
+  float: right;
+  font-size: 15px;
+}
+
+li.nav a {
+  
+  display: block;
+  color: #white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #0D38D3;
+  color: #43d6b9ff;
+}
 
 
 /******************************************************/
