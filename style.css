@@ -105,14 +105,17 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flexbox container for title and intro text */
 .flex-container {
   display: flex; /* Set the flexbox display */
-  flex-direction: row; /* Configure the flex items to row */
-  flex-wrap: nowrap; /* Don’t wrap the flex items */
-  justify-content: center; /* Justify the flex items to the center */
-  align-items: center; /* Align the flex items to the center */
+  flex-direction: row; 
+  flex-wrap: nowrap; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap;
+  top: 20%;
 
   /* Design properties */
-  background-color: #0D38D3;
+  background-color: #383e56;
   padding: 5px;
+  border: dotted;
 
   /* Positioning properties */
   position: absolute;
@@ -127,7 +130,7 @@ li.nav a:hover {
 /* TODO: Review the CSS properties to the flex item for the heading (the left box) */
 .heading-home {
   padding: 2%;
-  color: #43d6b9ff;
+  color: #eedad1;
   font-size: 50px;
   letter-spacing: 10px;
   line-height: 60px;
@@ -139,13 +142,13 @@ li.nav a:hover {
 
 /* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
 .intro-text {
-  background-color: #43d6b9ff; /* Add your own background color */
+  background-color: #d4b5b0; 
   padding: 4%;
   margin: 3%;
-  color: #0D38D3; /* Add the color of your font */
-  font-size: 20px; /* Add your font size*/
-  letter-spacing: 2px; /* Adds space between letters */
-  line-height: 1.4em; /* Adds space between lines */
+  color: #eedad1;
+  font-size: 25px; 
+  letter-spacing: 3px; 
+  line-height: 1.5em; 
   text-align: center;
 
   /*Debugging Tip: Uncomment the line below to see the outline of the container*/
@@ -210,6 +213,8 @@ li.nav a:hover {
 /******************************************************/
 
 /* TODO: Add a breakpoint if the screen is 700px or less */
-
+@media screen and (max-width:700px) {
+/* CSS rule sets */
+}
 
 /* TODO: Add additional breakpoints based on your website's design
