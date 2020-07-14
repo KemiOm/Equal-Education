@@ -46,7 +46,7 @@ h2 {
 
 /*TODO: Change the color of a link when a person hovers over it*/
 p a {
-  color: #43d6b9ff;
+  color: #d4b5b0;
   text-decoration: none;
 }
 
@@ -174,11 +174,13 @@ li.nav a:hover {
 /* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
-.image-one {
+.image-one,
+.image-two,
+.image-three{
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #43d6b9ff;
+  background-color: #383e56;
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
@@ -197,7 +199,9 @@ li.nav a:hover {
 }
 
 /* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
-
+.image-two {
+  background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2FIMG_8145.JPG?v=1594742885103");
+}
 /* TODO: Add more background images by repeating the process above */
 
 /*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
