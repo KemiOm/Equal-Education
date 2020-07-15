@@ -40,8 +40,8 @@ li.nav a {
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: #eedad1;
+  color: #f4f6ff;
 }
 
 
@@ -93,18 +93,18 @@ li.nav a:hover {
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
-  background-color: #0d9c90;
+  background-color: #f69e7b;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
 /* Holds all elements related to the action item list; inside the action-list-container */
 #checklist {
-  background-color: white;
+  background-color: #f69e7b;
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 15px;
   border-style: solid;
-  border-color: #43d6b9ff;
+  border-color: white;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -122,7 +122,7 @@ li.nav a:hover {
   font: 14px "Roboto", sans-serif;
   text-align: center;
   font-style: italic;
-  color: #0D38D3;
+  color: white;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
   
 }
@@ -145,7 +145,7 @@ li.nav a:hover {
   list-style-type: none;
   transition: 0.2s;
   width: 85%;
-  color: black;
+  color: white;
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -153,7 +153,7 @@ li.nav a:hover {
 #my-list li::before {
   content: "";
   position: absolute;
-  border-color: #43d6b9ff;
+  border-color: #white;
   border-style: solid;
   border-width: 2px;
   
@@ -173,13 +173,13 @@ like a checkmark!
 
 /* Change background color when cursor hovers over list items */
 #my-list li:hover {
-  background: #f3f3f3;
-  color: #0D38D3;
+  background: black;
+  color: white;
 }
 
 /* Change check square color when cursor hovers over */
 #my-list li:hover::before {
-  border-color: #0D38D3;
+  border-color: #eedad1;
   border-style: solid;
 }
 
@@ -192,7 +192,7 @@ like a checkmark!
 #my-list li.all-done::before {
   content: "";
   position: absolute;
-  border-color: #0D38D3;
+  border-color: #white;
   border-style: solid;
   border-width: 0 2px 2px 0;
   top: 5px;
