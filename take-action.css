@@ -34,6 +34,7 @@ li.nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+   text-shadow: 1px 1px blue;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
