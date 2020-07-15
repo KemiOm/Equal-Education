@@ -1,6 +1,9 @@
 /******************************************************/
 /************** CSS FOR TAKE-ACTION.HTML **************/
 /******************************************************/
+body {
+  background-image: linear-gradient(#383e56,#f69e7b);
+}
 
 .page-header-action {
   width: 100%;
@@ -94,7 +97,7 @@ li.nav a:hover {
   padding: 35px;
   margin: 5%;
   flex-grow: 1;
-  background-color: #f69e7b;
+  
   /*border-style: dotted;*/ /*Uncomment to see the outline of the container*/
 }
 
@@ -205,6 +208,7 @@ like a checkmark!
 .my-image{
   border-radius:30%;
 }
+
 
 
 /******************************************************/
