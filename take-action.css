@@ -201,7 +201,9 @@ like a checkmark!
   height: 15px;
   width: 7px;
 }
-
+.my-image{
+  border-radius:30%;
+}
 
 
 /******************************************************/
