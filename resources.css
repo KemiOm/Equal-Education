@@ -1,0 +1,42 @@
+.page-header-action {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  background-color: #383e56;
+}
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d4b5b0;
+  border-style: solid;
+  border-color: #f69e7b;
+}
+
+
+li.nav {
+  float: right;
+  font-size: 15px;
+}
+
+li.nav a {
+  
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+   text-shadow: 1px 1px blue;
+}
+
+
+li.nav a:hover {
+  background-color: #eedad1;
+  color: #f4f6ff;
+}
+
+body{}

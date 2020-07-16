@@ -57,7 +57,12 @@ p a {
 /* All of these TODOs are optional. You should change the styling based on your mockup */
 
 /* TODO (optional): Change the background color and/or border style */
-
+.page-header-action {
+  width: 100%;
+  position: absolute;
+  text-transform: uppercase;
+  background-color: #383e56;
+}
 ul.nav-bar {
   /* Styling for the <ul class="nav-bar"> element */
   list-style-type: none;
@@ -69,34 +74,36 @@ ul.nav-bar {
   border-color: #f69e7b;
 }
 
-/* TODO (optional): Change the font size*/
 
 li.nav {
-  /* Styling for the <li class="nav"> element */
   float: right;
   font-size: 15px;
 }
 
-/* TODO (optional): Change the font color, decoration, and/or case */
-
 li.nav a {
-  /* Styling for the <a> elements in <li class="nav"> */
+  
   display: block;
-  color: #white;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+   text-shadow: 1px 1px blue;
 }
 
 /* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
-  background-color: #0D38D3;
-  color: #43d6b9ff;
+  background-color: #eedad1;
+  color: #f4f6ff;
 }
+
+
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
 
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
