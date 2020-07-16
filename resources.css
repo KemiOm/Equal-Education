@@ -39,8 +39,5 @@ li.nav a:hover {
   color: #f4f6ff;
 }
 
-body,img {background-image:linear-gradient(#383e56,#f69e7b);
-}
-img{
-  
+body{background-image:linear-gradient(#383e56,#f69e7b);
 }
