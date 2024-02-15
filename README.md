@@ -1,7 +1,5 @@
 # Activist Toolkit Project
 
-This is a place for you to start building your personal project in week 2.
-
 ## Project Requirements
 You will:
 - Build a multipage website using HTML, CSS, and JavaScript.
@@ -23,9 +21,6 @@ You can extend your project further by:
 
 ## Image Attributions
 - Insert here
-
-# Starter Code File Overview
-Your full activity instructions are in HQ, but here's a little cheat-sheet of the files in this project:
 
 ## ← index.html
 This is your homepage. It should be the first page that you work on.
