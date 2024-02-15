@@ -12,29 +12,29 @@ The CSS for the take-action.html is in take-action.css
 /************* UNIVERSAL ELEMENTS ***************/
 /************************************************/
 
-/* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
+
 body,
 html {
   height: 100%;
-  font-size: 20px; /* Change the font size*/
+  font-size: 20px;
   font-family: 'Anton', sans-serif; 
-  line-height: 1.5em; /* Change the line height size*/
+  line-height: 1.5em;
   margin: 0em;
-  color: white; /* Change the font color*/
-  background-color: #383e56; /* Change the background color */
+  color: white;
+  background-color: #383e56; 
   box-sizing: border-box;
 }
 
 h1 {
   letter-spacing: 5px;
   font-size: 50px;
-  /*TODO: Change the font-family property to your linked font*/
+ 
   font-family: 'Anton', sans-serif;
   color: #eedad1;
   text-align: center;
 }
 
-/*TODO: Change the font-family property to your linked font*/
+
 h2 {
   letter-spacing: 3px;
   font-size: 25px;
@@ -44,7 +44,7 @@ h2 {
   line-height: 1.3em;
 }
 
-/*TODO: Change the color of a link when a person hovers over it*/
+
 p a {
   color: #d4b5b0;
   text-decoration: none;
@@ -54,9 +54,7 @@ p a {
 /*************** CSS FOR NAV BAR ****************/
 /************************************************/
 
-/* All of these TODOs are optional. You should change the styling based on your mockup */
 
-/* TODO (optional): Change the background color and/or border style */
 .page-header-action {
   width: 100%;
   position: absolute;
@@ -92,7 +90,7 @@ li.nav a {
    text-shadow: 1px 1px blue;
 }
 
-/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
 
 li.nav a:hover {
   /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
@@ -102,14 +100,11 @@ li.nav a:hover {
 
 
 
-/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
-
-
 /************************************************/
 /*********** CSS FOR FLEXBOX HEADING ************/
 /************************************************/
 
-/* TODO: Review the CSS properties to the flexbox container for title and intro text */
+
 .flex-container {
   display: flex; /* Set the flexbox display */
   flex-direction: row; 
@@ -129,11 +124,9 @@ li.nav a:hover {
   right: 20%;
   top: 40%; /* Change this value to move the box up or down */
 
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
 }
 
-/* TODO: Review the CSS properties to the flex item for the heading (the left box) */
+
 .heading-home {
   padding: 2%;
   color: #eedad1;
@@ -142,11 +135,10 @@ li.nav a:hover {
   line-height: 60px;
   text-align: center;
 
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
-  /*border-style: dotted;*/
+
 }
 
-/* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
+
 .intro-text {
   background-color: #f69e7b; 
   padding: 4%;
@@ -157,7 +149,7 @@ li.nav a:hover {
   line-height: 1.5em; 
   text-align: center;
 
-  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  
   
 }
 
@@ -167,7 +159,6 @@ li.nav a:hover {
 
 /*-----------TEXT SECTIONS-----------*/
 
-/* TODO (optional): Change the background color and/or text alignment */
 
 .text-section {
   background-color: #f69e7b;
@@ -178,7 +169,6 @@ li.nav a:hover {
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
 
-/* TODO: Add the CSS selector for each image to the collective image rule set */
 
 .main-message,
 .image-one,
@@ -192,21 +182,21 @@ li.nav a:hover {
   background-size: cover;
   min-height: 100%; /* This adjusts the height of the image */
 
-  /* TODO: Add the property to create the parallax scrolling effect here */
+ 
  background-attachment: fixed;
 }
 
-/* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
+
 .main-message {
   background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2Fsupplies.webp?v=1594742886528");
 }
 
-/* TODO: Replace the current image URL with your own */
+
 .image-one {
   background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2FIMG_8144.JPG?v=1594742883273");
 }
 
-/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+/
 .image-two {
   background-image: url("https://cdn.glitch.com/eec48f69-8dc1-487e-ac59-4566ea94d230%2FIMG_8145.JPG?v=1594742885103");
 }
@@ -227,7 +217,6 @@ li.nav a:hover {
 /***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
 /******************************************************/
 
-/* TODO: Add a breakpoint if the screen is 700px or less */
 @media screen and (max-width:700px) {
   .flex-container{
     flex-wrap: wrap;
@@ -235,4 +224,3 @@ li.nav a:hover {
   }
 }
 
-/* TODO: Add additional breakpoints based on your website's design
